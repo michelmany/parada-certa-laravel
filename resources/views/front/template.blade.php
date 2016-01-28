@@ -16,14 +16,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="front-assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="shortcut icon" href="front-assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('front-assets/ico/favicon.ico') }}">
 
     <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     
-    <!-- Icon-Font -->
-    <link rel="stylesheet" href="front-assets/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('front-assets/font-awesome/css/font-awesome.min.css') }}" type="text/css">
     <!--[if IE 7]>
         <link rel="stylesheet" href="front-assets/font-awesome/css/font-awesome-ie7.min.css" type="text/css">
     <![endif]-->
@@ -31,15 +30,15 @@
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900italic,300,400italic%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
     
-    <link rel="stylesheet" href="front-assets/bootstrap/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="front-assets/owl-carousel2/front-assets/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="front-assets/lightbox/css/lightbox.css" type="text/css">
-    <link rel="stylesheet" href="front-assets/masterslider/style/masterslider.css" type="text/css">
-    <link rel="stylesheet" href="front-assets/styles/main.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('front-assets/bootstrap/css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('front-assets/owl-carousel2/front-assets/owl.carousel.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('front-assets/lightbox/css/lightbox.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('front-assets/masterslider/style/masterslider.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('front-assets/styles/main.css') }}" type="text/css">
     
     <title>Auto Escola Parada Certa - Niterói/RJ</title>
     
-    <script type="text/javascript" src="front-assets/js/modernizr-custom.min.js"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/js/modernizr-custom.min.js') }}"></script>
 </head>
 
 
@@ -206,16 +205,16 @@
     </footer>
       
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script type="text/javascript" src="front-assets/js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="front-assets/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="front-assets/owl-carousel2/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="front-assets/lightbox/js/lightbox.min.js"></script>
-    <script type="text/javascript" src="front-assets/masterslider/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="front-assets/masterslider/masterslider.min.js"></script>
-    <script type="text/javascript" src="front-assets/js/jquery.scrollTo.min.js"></script>
-    <script type="text/javascript" src="front-assets/js/jquery.stellar.min.js"></script>
-    <script type="text/javascript" src="front-assets/js/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="front-assets/js/custom.js"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/js/jquery-1.11.3.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/owl-carousel2/owl.carousel.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/lightbox/js/lightbox.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/masterslider/jquery.easing.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/masterslider/masterslider.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/js/jquery.scrollTo.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/js/jquery.stellar.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/js/isotope.pkgd.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/js/custom.js') }}"></script>
 
 
     </body>

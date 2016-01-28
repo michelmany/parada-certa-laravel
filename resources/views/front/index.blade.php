@@ -5,13 +5,13 @@
     <section class="no-padding">
         <div class="master-slider ms-skin-default has-thumbnails" id="main-slider">
             <div class="ms-slide bg-pattern-clean" data-delay="7">
-                <img src="front-assets/masterslider/blank.gif" data-src="front-assets/images/slider/slide1.jpg" alt="slider image">   
+                <img src="{{ asset('front-assets/images/slider/slide1.jpg') }}" data-src="{{ asset('front-assets/images/slider/slide1.jpg') }}" alt="slider image">   
             </div><!-- .ms-slide -->
             <div class="ms-slide bg-pattern-clean" data-delay="7">
-                <img src="front-assets/masterslider/blank.gif" data-src="front-assets/images/slider/slide1.jpg" alt="slider image">   
+                <img src="{{ asset('front-assets/images/slider/slide1.jpg') }}" data-src="{{ asset('front-assets/images/slider/slide1.jpg') }}" alt="slider image">   
             </div><!-- .ms-slide -->
             <div class="ms-slide bg-pattern-clean" data-delay="7">
-                <img src="front-assets/masterslider/blank.gif" data-src="front-assets/images/slider/slide1.jpg" alt="slider image">   
+                <img src="{{ asset('front-assets/images/slider/slide1.jpg') }}" data-src="{{ asset('front-assets/images/slider/slide1.jpg') }}" alt="slider image">   
             </div><!-- .ms-slide -->
         </div>
     </section>
@@ -173,19 +173,19 @@
                     <div class="centered-column col-md-6 responsive-column-md">
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="tab1-content">
-                                <img class="img-full" alt="photo" src="front-assets/images/matricula.jpg">
+                                <img class="img-full" alt="photo" src="{{ asset('front-assets/images/matricula.jpg') }}">
                                 <p class="description text-center">
                                     <a href="#" class="btn-box-color btn-big">Matrícula Online</a>
                                 </p>
                             </div>
                             <div role="tabpanel" class="tab-pane fade" id="tab2-content">
-                               <img class="img-full" alt="photo" src="front-assets/images/exames.jpg">
+                               <img class="img-full" alt="photo" src="{{ asset('front-assets/images/exames.jpg') }}">
                                 <p class="description text-center">
                                     <a href="#" class="btn-box-color btn-big">Saiba mais</a>
                                 </p>
                             </div>
                             <div role="tabpanel" class="tab-pane fade" id="tab3-content">
-                                <img class="img-full" alt="photo" src="front-assets/images/avaliacoes.jpg">
+                                <img class="img-full" alt="photo" src="{{ asset('front-assets/images/avaliacoes.jpg') }}">
                                 <p class="description text-center">
                                     <a href="#" class="btn-box-color btn-big">Saiba mais</a>
                                 </p>
