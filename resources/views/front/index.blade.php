@@ -31,7 +31,7 @@
                 <div class="section-header-content">
                     <h1>Quem somos</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                        {{ $title }} Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
                          Expedita libero nisi nobis quidem error magni? Vel a velit iure quia maxime. <a href="#"><strong>Saiba mais...</strong></a>
                     </p>
                 </div>

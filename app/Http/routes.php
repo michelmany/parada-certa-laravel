@@ -12,6 +12,16 @@
 */
 
 Route::get('/', 'Front\FrontController@index');
+Route::get('/contato', 'Front\FrontController@contato')->name('contato');
+Route::get('/simulado', 'Front\FrontController@simulado')->name('simulado-online');
+
+
+Route::get('/painel', 'Painel\PainelController@dashboard');
+Route::get('/painel/dashboard', 'Painel\PainelController@dashboard')->name('dashboard');
+Route::get('/painel/sliders', 'Painel\SlidersController@index')->name('sliders');
+Route::get('/painel/sliders/create', 'Painel\SlidersController@create')->name('sliders-create');
+
+
 
 /*
 |--------------------------------------------------------------------------

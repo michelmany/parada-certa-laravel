@@ -11,6 +11,18 @@ class FrontController extends Controller
 {
     public function index()
     {
-        return view('front.index');
+        $teste = 'Página Principal';
+        return view('front.index', ['title'=>$teste]);
     }
+
+    public function contato()
+    {
+        return view('front.contato');
+    }
+
+    public function simulado()
+    {
+        return view('front.simulado-online');
+    }
+
 }

@@ -64,7 +64,7 @@
     <header class="page-header">
         <nav class="navbar navbar-default clearfix">
             <div class="container">
-                <a href="index.php"><h1 class="site-logo"><img alt="Parada Certa" src="front-assets/images/logo.png"></h1></a>
+                <a href="{{ url('/') }}"><h1 class="site-logo"><img alt="Parada Certa" src="{{ asset('front-assets/images/logo.png') }}"></h1></a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                     <i class="fa fa-reorder"></i>
                 </button>
@@ -101,14 +101,14 @@
                                     Links úteis
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <li><a href="simulado.php">Simulado Detran</a></li>
+                                    <li><a href="{{ route('simulado-online') }}">Simulado Detran</a></li>
                                     <li><a href="#">Bradesco Detran</a></li>
                                     <li><a href="#">Exame Prático</a></li>
                                 </ul>
                             </li>
 
                             <li>
-                                <a href="contato.php">contato</a>
+                                <a href="{{ route('contato') }}">contato</a>
                             </li>
                             <li>
                                 <a class="no-scroll" id="search-trigger"><i class="fa fa-search"></i></a>
@@ -197,7 +197,7 @@
                         <li><a href="#">Auto Escola</a></li>
                         <li><a href="#">Serviços</a></li>
                         <li><a href="simulado.php">Simulado Detran</a></li>
-                        <li><a href="contato.php">Contato</a></li>
+                        <li><a href="{{ route('contato') }}">Contato</a></li>
                     </ul>
                 </div>
             </div><!-- .container -->
