@@ -19,3 +19,13 @@ $factory->define(ParadaCerta\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+
+$factory->define(ParadaCerta\Models\Matriculas::class, function (Faker\Generator $faker) {
+    return [
+        'nome' => $faker->name,
+        'email' => $faker->email,
+        'cidade' => $faker->city,
+        'curso_id' => $faker->numberBetween(1,2),
+    ];
+});
