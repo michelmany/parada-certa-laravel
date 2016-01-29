@@ -24,14 +24,14 @@
 <body class="flat-blue">
     <div class="app-container">
         <div class="row content-container">
-            <nav class="navbar navbar-default navbar-fixed-top navbar-top">
+            <nav class="navbar navbar-inverse navbar-fixed-top navbar-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-expand-toggle">
                             <i class="fa fa-bars icon"></i>
                         </button>
                         <ol class="breadcrumb navbar-breadcrumb">
-                            <li class="active">{{ $page_title }}</li>
+                            <li class="active">Parada Certa Auto Escola</li>
                         </ol>
                         <button type="button" class="navbar-right-expand-toggle pull-right visible-xs">
                             <i class="fa fa-th icon"></i>
@@ -133,7 +133,7 @@
                                         <ul class="nav navbar-nav">
                                             <li><a href="{{ route('sliders') }}">Listar</a>
                                             </li>
-                                            <li><a href="{{ route('sliders-create') }}">Adicionar Banner</a>
+                                            <li><a href="{{ route('sliders.create') }}">Adicionar Banner</a>
                                             </li>
                                          </ul>
                                     </div>
@@ -147,9 +147,9 @@
                                 <div id="dropdown-table" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ul class="nav navbar-nav">
-                                            <li><a href="table/table.html">Listar</a>
+                                            <li><a href="{{ route('matriculas') }}">Listar</a>
                                             </li>
-                                            <li><a href="table/datatable.html">Adicionar</a>
+                                            <li><a href="{{ route('matriculas.create') }}">Adicionar</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -157,8 +157,8 @@
                             </li>
 
                             <li>
-                                <a href="license.html">
-                                    <span class="icon fa fa-thumbs-o-up"></span><span class="title">License</span>
+                                <a href="{{ route('cursos') }}">
+                                    <span class="icon fa fa-thumbs-o-up"></span><span class="title">Cursos</span>
                                 </a>
                             </li>
                         </ul>
@@ -171,7 +171,7 @@
 
             <footer class="app-footer">
                 <div class="wrapper">
-                    <span class="pull-right">2.1 <a href="#"><i class="fa fa-long-arrow-up"></i></a></span> NITDESIGN © 2015 Copyright.
+                    <span class="pull-right">2.1 <a href="#"><i class="fa fa-long-arrow-up"></i></a></span> <a href="http://www.nitdesign.com.br" target="_blank">NITDESIGN CREATIVE STUDIO</a> © 2016 COPYRIGHT.
                 </div>
             </footer>
             <div>

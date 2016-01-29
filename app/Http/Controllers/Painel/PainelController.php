@@ -26,6 +26,6 @@ class PainelController extends Controller
         $page_title = 'Painel';
         return view('painel.dashboard.index', ['page_title'=>$page_title]);
     }
-
+    
 
 }
