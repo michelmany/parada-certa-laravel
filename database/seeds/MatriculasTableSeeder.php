@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class MatriculasTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,10 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // Model::unguard();
-
-        $this->call(CursoTableSeeder::class);
-
-        // Model::reguard();
+        factory(ParadaCerta\Models\Matricula::class, 10)->create();        
     }
 }

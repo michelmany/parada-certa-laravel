@@ -6,12 +6,12 @@ use Illuminate\Http\Request;
 
 use ParadaCerta\Http\Requests;
 use ParadaCerta\Http\Controllers\Controller;
-use ParadaCerta\Models\Matriculas;
+use ParadaCerta\Models\Matricula;
 
 class MatriculasController extends Controller
 {
 
-    public function __construct(Matriculas $matricula)
+    public function __construct(Matricula $matricula)
     {
         $this->matricula = $matricula;
     }

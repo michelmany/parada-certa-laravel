@@ -31,7 +31,6 @@ class CreateMatriculasTable extends Migration
             $table->string('cidade');
             $table->string('cep');
             $table->string('uf', 2);
-            $table->integer('curso_id')->unsigned();
             $table->string('como_conheceu', 2);
             $table->timestamps();
         });

@@ -21,11 +21,16 @@ $factory->define(ParadaCerta\User::class, function (Faker\Generator $faker) {
 });
 
 
-$factory->define(ParadaCerta\Models\Matriculas::class, function (Faker\Generator $faker) {
+$factory->define(ParadaCerta\Models\Matricula::class, function (Faker\Generator $faker) {
     return [
         'nome' => $faker->name,
         'email' => $faker->email,
         'cidade' => $faker->city,
-        'curso_id' => $faker->numberBetween(1,2),
+    ];
+});
+
+$factory->define(ParadaCerta\Models\Curso::class, function (Faker\Generator $faker) {
+    return [
+        'nome' => $faker->word,
     ];
 });
