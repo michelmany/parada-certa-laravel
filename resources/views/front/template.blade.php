@@ -101,7 +101,7 @@
                                     Links úteis
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <li><a href="{{ route('simulado-online') }}">Simulado Detran</a></li>
+                                    <li><a href="{{ route('simulado.online') }}">Simulado Detran</a></li>
                                     <li><a href="#">Bradesco Detran</a></li>
                                     <li><a href="#">Exame Prático</a></li>
                                 </ul>

@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => ParadaCerta\User::class,
+            'model' => ParadaCerta\Models\User::class,
         ],
 
         // 'users' => [

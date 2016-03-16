@@ -1,6 +1,6 @@
 <?php
 
-namespace ParadaCerta;
+namespace ParadaCerta\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

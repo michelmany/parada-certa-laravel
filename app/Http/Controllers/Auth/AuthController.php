@@ -2,7 +2,7 @@
 
 namespace ParadaCerta\Http\Controllers\Auth;
 
-use ParadaCerta\User;
+use ParadaCerta\Models\User;
 use Validator;
 use ParadaCerta\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
@@ -28,7 +28,7 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/painel';
 
     /**
      * Create a new authentication controller instance.

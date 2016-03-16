@@ -11,7 +11,7 @@
 |
 */
 
-$factory->define(ParadaCerta\User::class, function (Faker\Generator $faker) {
+$factory->define(ParadaCerta\Models\User::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->email,
