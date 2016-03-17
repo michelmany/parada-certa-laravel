@@ -31,7 +31,7 @@ class CreateMatriculasTable extends Migration
             $table->string('cidade');
             $table->string('cep');
             $table->string('uf', 2);
-            $table->string('como_conheceu', 2);
+            $table->string('como_conheceu', 15);
             $table->timestamps();
         });
     }

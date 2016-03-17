@@ -31,4 +31,5 @@ class Matricula extends Model
     {
         return $this->belongsToMany('ParadaCerta\Models\Curso', 'matriculas_cursos');
     }
+
 }

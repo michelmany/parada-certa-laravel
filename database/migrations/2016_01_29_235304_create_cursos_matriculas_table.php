@@ -14,9 +14,9 @@ class CreateCursosMatriculasTable extends Migration
     {
         Schema::create('matriculas_cursos', function (Blueprint $table) {
             $table->integer('matricula_id')->unsigned();
-            $table->foreign('matricula_id')->references('id')->on('matriculas');
+            $table->foreign('matricula_id')->references('id')->on('matriculas')->onDelete('cascade');
             $table->integer('curso_id')->unsigned();
-            $table->foreign('curso_id')->references('id')->on('cursos');
+            $table->foreign('curso_id')->references('id')->on('cursos')->onDelete('cascade');
         });
     }
 

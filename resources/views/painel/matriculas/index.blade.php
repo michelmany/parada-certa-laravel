@@ -35,8 +35,9 @@
                                     <td>{{ $matricula->email }}</td>
                                     <td>{{ $matricula->cidade }}</td>
                                     <td>
-                                        <button class="btn btn-warning btn-sm">Visualizar</button>
-                                        <button class="btn btn-danger btn-sm">Deletar</button>
+                                        <a href="{{ route('matriculas.view', ['id' => $matricula->id]) }}" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></a>
+                                        <a href="{{ route('matriculas.edit', ['id' => $matricula->id]) }}" class="btn btn-warning btn-sm">Editar</a>
+                                        <a href="{{ route('matriculas.destroy', ['id' => $matricula->id]) }}" class="btn btn-danger btn-sm">Deletar</a>
                                     </td>
                                 </tr>
                                 @endforeach

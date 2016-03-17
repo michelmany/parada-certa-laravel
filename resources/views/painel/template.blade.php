@@ -85,18 +85,18 @@
                             </ul>
                         </li>
                         <li class="dropdown profile">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Emily Hart <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ isset(Auth::user()->name) ? Auth::user()->name : 'Username' }} <span class="caret"></span></a>
                             <ul class="dropdown-menu animated fadeInDown">
-                                <li class="profile-img">
-                                    <img src="../img/profile/picjumbo.com_HNCK4153_resize.jpg" class="profile-img">
-                                </li>
+                                {{--<li class="profile-img">--}}
+                                    {{--<img src="" class="profile-img">--}}
+                                {{--</li>--}}
                                 <li>
                                     <div class="profile-info">
-                                        <h4 class="username">Emily Hart</h4>
-                                        <p>emily_hart@email.com</p>
+                                        <h4 class="username">{{ Auth::user()->name }}</h4>
+                                        <p>{{ Auth::user()->email }}</p>
                                         <div class="btn-group margin-bottom-2x" role="group">
                                             <button type="button" class="btn btn-default"><i class="fa fa-user"></i> Profile</button>
-                                            <button type="button" class="btn btn-default"><i class="fa fa-sign-out"></i> Logout</button>
+                                            <a href="{{ route('logout') }}" type="button" class="btn btn-default"><i class="fa fa-sign-out"></i> Logout</a>
                                         </div>
                                     </div>
                                 </li>
