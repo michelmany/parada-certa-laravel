@@ -57,6 +57,9 @@
                 <span class="site-top-part">
                     <i class="fa fa-envelope-o"></i> contato@autoescolaparadacerta.com.br
                 </span>
+                <span class="site-top-part">
+                    <a href="{{ url('/painel') }}"><i class="fa fa-sign-in"></i>Painel</a>
+                </span>
             </div>
         </div><!-- .container -->
     </div><!-- .site-top -->

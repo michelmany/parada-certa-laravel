@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Auto Escola Parada Certa - Niterói</title>
 
     <!-- Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
@@ -13,11 +13,14 @@
 
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/css/themes/flat-blue.css') }}">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
         body {
             font-family: 'Lato';
+
         }
 
         .fa-btn {
@@ -26,7 +29,7 @@
     </style>
 </head>
 <body id="app-layout">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse">
         <div class="container">
             <div class="navbar-header">
 
@@ -39,15 +42,15 @@
                 </button>
 
                 <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    Laravel
+                <a class="navbar-brand text-center" href="{{ url('/') }}">
+                    Auto Escola Parada Certa
                 </a>
             </div>
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/home') }}">Home</a></li>
+
                 </ul>
 
                 <!-- Right Side Of Navbar -->
@@ -55,7 +58,7 @@
                     <!-- Authentication Links -->
                     @if (Auth::guest())
                         <li><a href="{{ url('/login') }}">Login</a></li>
-                        <li><a href="{{ url('/register') }}">Register</a></li>
+
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">

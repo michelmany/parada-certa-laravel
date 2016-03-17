@@ -186,6 +186,13 @@ p {
 textarea {
   height: 135px;
 }
+
+/*== NOVOS ==*/
+.login-page {
+  padding: 150px 30px;
+}
+
+
 /*== 2 IDs ==*/
 #map-canvas {
   position: absolute;
