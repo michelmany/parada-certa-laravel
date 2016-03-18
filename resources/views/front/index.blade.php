@@ -2,9 +2,7 @@
 
 @section('content')
 
-    <?php echo phpinfo(); ?>
-
-    <section class="no-padding">
+   <section class="no-padding">
         <div class="master-slider ms-skin-default has-thumbnails" id="main-slider">
             <div class="ms-slide bg-pattern-clean" data-delay="7">
                 <img src="{{ asset('front-assets/images/slider/slide1.jpg') }}" data-src="{{ asset('front-assets/images/slider/slide1.jpg') }}" alt="slider image">   
