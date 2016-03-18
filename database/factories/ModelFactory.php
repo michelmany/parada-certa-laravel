@@ -13,24 +13,24 @@
 
 $factory->define(ParadaCerta\Models\User::class, function (Faker\Generator $faker) {
     return [
-        'name' => $faker->name,
-        'email' => $faker->email,
-        'password' => bcrypt(str_random(10)),
-        'remember_token' => str_random(10),
+        'name' => 'Michel Many',
+        'email' => 'michel@nitdesign.com.br',
+        'password' => bcrypt('nit1049'),
+        'remember_token' => 'nit1049',
     ];
 });
 
 
-$factory->define(ParadaCerta\Models\Matricula::class, function (Faker\Generator $faker) {
-    return [
-        'nome' => $faker->name,
-        'email' => $faker->email,
-        'cidade' => $faker->city,
-    ];
-});
-
-$factory->define(ParadaCerta\Models\Curso::class, function (Faker\Generator $faker) {
-    return [
-        'nome' => $faker->word,
-    ];
-});
+//$factory->define(ParadaCerta\Models\Matricula::class, function (Faker\Generator $faker) {
+//    return [
+//        'nome' => $faker->name,
+//        'email' => $faker->email,
+//        'cidade' => $faker->city,
+//    ];
+//});
+//
+//$factory->define(ParadaCerta\Models\Curso::class, function (Faker\Generator $faker) {
+//    return [
+//        'nome' => $faker->word,
+//    ];
+//});
