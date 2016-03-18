@@ -8,8 +8,8 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "laravelcollective/html": "^5.2",
-        "overtrue/laravel-lang": "dev-master"
-        "fzaninotto/faker": "~1.4",
+        "overtrue/laravel-lang": "dev-master",
+        "fzaninotto/faker": "~1.4"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
