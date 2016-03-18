@@ -2,6 +2,8 @@
 
 @section('content')
 
+    <?php echo phpinfo(); ?>
+
     <section class="no-padding">
         <div class="master-slider ms-skin-default has-thumbnails" id="main-slider">
             <div class="ms-slide bg-pattern-clean" data-delay="7">
@@ -20,7 +22,7 @@
         <div class="container text-center text-promote">
             Faça já sua matrícula online para tirar sua CNH.
             <span class="btn-group-full">
-                <a href="#" class="btn-box-color btn-big margin-left-lg">Saiba mais...</a> <a href="#" class="btn-box-color btn-big margin-left-md">Matrícula online</a>
+                <a href="{{ route('procedimentos') }}" class="btn-box-color btn-big margin-left-lg">Saiba mais...</a> <a href="{{ route('matricula.online') }}" class="btn-box-color btn-big margin-left-md">Matrícula online</a>
             </span>
         </div>
     </section>
@@ -31,8 +33,9 @@
                 <div class="section-header-content">
                     <h1>Quem somos</h1>
                     <p>
-                        {{ $title }} Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
-                         Expedita libero nisi nobis quidem error magni? Vel a velit iure quia maxime. <a href="#"><strong>Saiba mais...</strong></a>
+                        O Centro de Formação de Condutores PARADA CERTA, atuando hoje na cidade de Niterói, tem como missão a qualidade de ensino e a formação de condutores conscientes.
+                        Ensinando a dirigir com excelência para um trânsito cada vez mais seguro. Desde o início está vinculada à inovação tecnológica, adaptando-se rapidamente às constantes mudanças.
+                        <a href="{{ route('quemsomos') }}"><strong>Saiba mais...</strong></a>
                     </p>
                 </div>
             </div>
@@ -46,7 +49,7 @@
                             <h2>Horários</h2>
                             <div class="huge-icon-hover">
                                 <p>Fique por dentro dos nossos horários de funcionamento.</p>
-                                <a href="#" class="read-more-link">Saiba mais</a>
+                                <a href="{{ route('quemsomos') }}" class="read-more-link">Saiba mais</a>
                             </div>
                         </div><!-- .huge-icon-content -->
                     </div><!-- .huge-icon -->
@@ -58,7 +61,7 @@
                             <h2>Veículos</h2>
                             <div class="huge-icon-hover">
                                 <p>Conheça os nossos veículos. Carros e motos novos.</p>
-                                <a href="#" class="read-more-link">Saiba mais</a>
+                                <a href="{{ route('veiculos') }}" class="read-more-link">Saiba mais</a>
                             </div>
                         </div><!-- .huge-icon-content -->
                     </div><!-- .huge-icon -->
@@ -70,7 +73,7 @@
                             <h2>Unidade</h2>
                             <div class="huge-icon-hover">
                                 <p>Veja onde se encontra a Auto Escola Parada Certa.</p>
-                                <a href="#" class="read-more-link">Saiba mais</a>
+                                <a href="{{ route('quemsomos') }}" class="read-more-link">Saiba mais</a>
                             </div>
                         </div><!-- .huge-icon-content -->
                     </div><!-- .huge-icon -->
@@ -83,7 +86,7 @@
                             <h2>Matrícula</h2>                            
                             <div class="huge-icon-hover">
                                 <p>Faça já sua Matrícula online e ganhe tempo!</p>
-                                <a href="#" class="read-more-link">Saiba mais</a>
+                                <a href="{{ route('matricula.online') }}" class="read-more-link">Saiba mais</a>
                             </div>
                         </div><!-- .huge-icon-content -->
                     </div><!-- .huge-icon -->
@@ -95,7 +98,7 @@
                             <h2>Contato</h2>                            
                             <div class="huge-icon-hover">
                                 <p>Ainda tem dúvidas? Entre em contato conosco.</p>
-                                <a href="#" class="read-more-link">Saiba mais</a>
+                                <a href="{{ route('contato') }}" class="read-more-link">Saiba mais</a>
                             </div>
                         </div><!-- .huge-icon-content -->
                     </div><!-- .huge-icon -->
@@ -175,19 +178,19 @@
                             <div role="tabpanel" class="tab-pane fade in active" id="tab1-content">
                                 <img class="img-full" alt="photo" src="{{ asset('front-assets/images/matricula.jpg') }}">
                                 <p class="description text-center">
-                                    <a href="#" class="btn-box-color btn-big">Matrícula Online</a>
+                                    <a href="{{ route('matricula.online') }}" class="btn-box-color btn-big">Matrícula Online</a>
                                 </p>
                             </div>
                             <div role="tabpanel" class="tab-pane fade" id="tab2-content">
                                <img class="img-full" alt="photo" src="{{ asset('front-assets/images/exames.jpg') }}">
                                 <p class="description text-center">
-                                    <a href="#" class="btn-box-color btn-big">Saiba mais</a>
+                                    <a href="{{ route('passoapasso') }}" class="btn-box-color btn-big">Saiba mais</a>
                                 </p>
                             </div>
                             <div role="tabpanel" class="tab-pane fade" id="tab3-content">
                                 <img class="img-full" alt="photo" src="{{ asset('front-assets/images/avaliacoes.jpg') }}">
                                 <p class="description text-center">
-                                    <a href="#" class="btn-box-color btn-big">Saiba mais</a>
+                                    <a href="{{ route('passoapasso') }}" class="btn-box-color btn-big">Saiba mais</a>
                                 </p>
                             </div>
                         </div><!-- .tab-content -->
@@ -197,61 +200,61 @@
         </div><!-- .container -->
     </section>
 
-    <section>
-        <div class="section-header">
-            <div class="container">
-                <div class="section-header-content">
-                    <h1>Marcas / Parceiros</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Reiciendis error optio delectus, quos sit nam, suscipit pariatur deleniti. 
-                    </p>
-                </div>
-            </div>
-        </div><!-- .section-header -->
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-12-5">
-                    <div class="logo-hover">
-                        <img alt="logo" src="./Built_files/1.png">
-                        <div class="logo-hover-img">
-                            <img alt="logo" src="./Built_files/1_hover.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12-5">
-                    <div class="logo-hover">
-                        <img alt="logo" src="./Built_files/2.png">
-                        <div class="logo-hover-img">
-                            <img alt="logo" src="./Built_files/2_hover.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12-5">
-                    <div class="logo-hover">
-                        <img alt="logo" src="./Built_files/3.png">
-                        <div class="logo-hover-img">
-                            <img alt="logo" src="./Built_files/3_hover.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12-5">
-                    <div class="logo-hover">
-                        <img alt="logo" src="./Built_files/4.png">
-                        <div class="logo-hover-img">
-                            <img alt="logo" src="./Built_files/4_hover.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12-5">
-                    <div class="logo-hover">
-                        <img alt="logo" src="./Built_files/5.png">
-                        <div class="logo-hover-img">
-                            <img alt="logo" src="./Built_files/5_hover.png">
-                        </div>
-                    </div>
-                </div>
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </section>
+    {{--<section>--}}
+        {{--<div class="section-header">--}}
+            {{--<div class="container">--}}
+                {{--<div class="section-header-content">--}}
+                    {{--<h1>Marcas / Parceiros</h1>--}}
+                    {{--<p>--}}
+                        {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Reiciendis error optio delectus, quos sit nam, suscipit pariatur deleniti. --}}
+                    {{--</p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div><!-- .section-header -->--}}
+        {{--<div class="container text-center">--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-md-12-5">--}}
+                    {{--<div class="logo-hover">--}}
+                        {{--<img alt="logo" src="./Built_files/1.png">--}}
+                        {{--<div class="logo-hover-img">--}}
+                            {{--<img alt="logo" src="./Built_files/1_hover.png">--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-md-12-5">--}}
+                    {{--<div class="logo-hover">--}}
+                        {{--<img alt="logo" src="./Built_files/2.png">--}}
+                        {{--<div class="logo-hover-img">--}}
+                            {{--<img alt="logo" src="./Built_files/2_hover.png">--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-md-12-5">--}}
+                    {{--<div class="logo-hover">--}}
+                        {{--<img alt="logo" src="./Built_files/3.png">--}}
+                        {{--<div class="logo-hover-img">--}}
+                            {{--<img alt="logo" src="./Built_files/3_hover.png">--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-md-12-5">--}}
+                    {{--<div class="logo-hover">--}}
+                        {{--<img alt="logo" src="./Built_files/4.png">--}}
+                        {{--<div class="logo-hover-img">--}}
+                            {{--<img alt="logo" src="./Built_files/4_hover.png">--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-md-12-5">--}}
+                    {{--<div class="logo-hover">--}}
+                        {{--<img alt="logo" src="./Built_files/5.png">--}}
+                        {{--<div class="logo-hover-img">--}}
+                            {{--<img alt="logo" src="./Built_files/5_hover.png">--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div><!-- .row -->--}}
+        {{--</div><!-- .container -->--}}
+    {{--</section>--}}
 
-    @stop
+    @endsection

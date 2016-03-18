@@ -12,9 +12,51 @@
 */
 
 // Front Site
-Route::get('/', 'Front\FrontController@index');
-Route::get('/contato', 'Front\FrontController@contato')->name('contato');
-Route::get('/simulado', 'Front\FrontController@simulado')->name('simulado.online');
+Route::get('/', 'Front\FrontController@index')->name('home');
+Route::get('contato', 'Front\FrontController@contato')->name('contato');
+Route::get('simulado', 'Front\FrontController@simulado')->name('simulado.online');
+Route::get('quemsomos', 'Front\FrontController@quemsomos')->name('quemsomos');
+Route::get('veiculos', 'Front\FrontController@veiculos')->name('veiculos');
+
+Route::group(['middleware' => 'web'], function () {
+    // Form Matrícula front site
+    Route::get('matricula-online', 'Front\FrontController@matricula')->name('matricula.online');
+    Route::post('matricula-online/store', 'Painel\MatriculasController@store')->name('matriculassite.store');
+
+});
+
+Route::group(['prefix'=>'servicos'], function() {
+
+    Route::get('realinfrator', 'Front\PageServicosController@realinfrator')->name('realinfrator');
+
+    Route::group(['prefix'=>'categoria-a-moto'], function() {
+        Route::get('habilitacao', 'Front\PageServicosController@habilitacaoa')->name('habilitacao.a');
+        Route::get('inclusao', 'Front\PageServicosController@inclusaoa')->name('inclusao.a');
+        Route::get('aulapratica', 'Front\PageServicosController@aulapraticaa')->name('aulapratica.a');
+        Route::get('reciclagemhabilitados', 'Front\PageServicosController@reciclagemhabilitadosa')->name('reciclagemhabilitado.a');
+    });
+    Route::group(['prefix'=>'categoria-b-carro'], function() {
+        Route::get('habilitacao', 'Front\PageServicosController@habilitacaob')->name('habilitacao.b');
+        Route::get('inclusao', 'Front\PageServicosController@inclusaob')->name('inclusao.b');
+        Route::get('aulapratica', 'Front\PageServicosController@aulapraticab')->name('aulapratica.b');
+        Route::get('reciclagemhabilitados', 'Front\PageServicosController@reciclagemhabilitadob')->name('reciclagemhabilitado.b');
+    });
+    Route::group(['prefix'=>'categoria-ab-carro'], function() {
+        Route::get('habilitacao', 'Front\PageServicosController@habilitacaoab')->name('habilitacao.ab');
+        Route::get('inclusao', 'Front\PageServicosController@inclusaoab')->name('inclusao.ab');
+        Route::get('aulapratica', 'Front\PageServicosController@aulapraticaab')->name('aulapratica.ab');
+        Route::get('reciclagemhabilitados', 'Front\PageServicosController@reciclagemhabilitadosab')->name('reciclagemhabilitado.ab');
+    });
+
+    Route::get('tabelaprecos', 'Front\PageServicosController@tabelaprecos')->name('tabela.precos');
+    Route::get('habilitacao-passo-a-passo', 'Front\PageServicosController@passoapasso')->name('passoapasso');
+
+});
+
+
+
+Route::get('matricula-procedimentos', 'Front\FrontController@procedimentos')->name('procedimentos');
+
 
 /*
 |--------------------------------------------------------------------------

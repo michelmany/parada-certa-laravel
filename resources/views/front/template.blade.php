@@ -23,10 +23,7 @@
     <![endif]-->
     
     <link rel="stylesheet" href="{{ asset('front-assets/font-awesome/css/font-awesome.min.css') }}" type="text/css">
-    <!--[if IE 7]>
-        <link rel="stylesheet" href="front-assets/font-awesome/css/font-awesome-ie7.min.css" type="text/css">
-    <![endif]-->
-    
+
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900italic,300,400italic%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
     
@@ -34,8 +31,10 @@
     <link rel="stylesheet" href="{{ asset('front-assets/owl-carousel2/front-assets/owl.carousel.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('front-assets/lightbox/css/lightbox.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('front-assets/masterslider/style/masterslider.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('front-assets/styles/morphext.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('front-assets/styles/animate.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('front-assets/styles/main.css') }}" type="text/css">
-    
+
     <title>Auto Escola Parada Certa - Niterói/RJ</title>
     
     <script type="text/javascript" src="{{ asset('front-assets/js/modernizr-custom.min.js') }}"></script>
@@ -67,7 +66,7 @@
     <header class="page-header">
         <nav class="navbar navbar-default clearfix">
             <div class="container">
-                <a href="{{ url('/') }}"><h1 class="site-logo"><img alt="Parada Certa" src="{{ asset('front-assets/images/logo.png') }}"></h1></a>
+                <a href="{{ route('home') }}"><h1 class="site-logo"><img alt="Parada Certa" src="{{ asset('front-assets/images/logo.png') }}"></h1></a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                     <i class="fa fa-reorder"></i>
                 </button>
@@ -75,27 +74,46 @@
                     <div class="collapse navbar-collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav main-navigation clearfix">
 
-                            <li><a href="index.php">Home</a></li>
+                            <li><a href="{{ route('home') }}">Home</a></li>
 
-                            <li class="">
+                            <li>
                                 <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                     Auto Escola
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="#">Quem somos</a></li>
-                                    <li><a href="#">Veículos</a></li>
+                                    <li><a href="{{ route('quemsomos') }}">Quem somos</a></li>
+                                    <li><a href="{{ route('veiculos') }}">Veículos</a></li>
                                 </ul>
-                            </li>  
+                            </li>
 
-                            <li><a href="#">Serviços</a></li>
+                            <li>
+                                <a class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    Serviços
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <li><a href="{{ route('habilitacao.a') }}">Categoria A (Moto)</a></li>
+                                    <li><a href="{{ route('habilitacao.b') }}">Categoria B (Carro)</a></li>
+                                    <li><a href="{{ route('habilitacao.ab') }}">Categoria AB</a></li>
+                                    <li><a href="{{ route('tabela.precos') }}">Tabela de preços</a></li>
+                                    <li><a href="{{ route('passoapasso') }}">Matrícula (Passo a Passo)</a></li>
+
+                                </ul>
+                                {{--<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">--}}
+                                    {{--<li><a href="{{ route('habilitacao.a') }}">1ª Habilitação</a></li>--}}
+                                    {{--<li><a href="{{ route('inclusao.a') }}">Inclusão de categoria</a></li>--}}
+                                    {{--<li><a href="{{ route('aulapratica.a') }}">Aulas práticas avulsas</a></li>--}}
+                                    {{--<li><a href="{{ route('reciclagemhabilitado.a') }}">Reciclagem para habilitados</a></li>--}}
+                                    {{--<li><a href="{{ route('realinfrator') }}">Real infrator</a></li>--}}
+                                {{--</ul>--}}
+                            </li>
 
                             <li>
                                 <a class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                     Matrícula
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <li><a href="#">Procedimentos</a></li>
-                                    <li><a href="#">Matrícula Online</a></li>
+                                    <li><a href="{{ route('procedimentos') }}">Procedimentos</a></li>
+                                    <li><a href="{{ route('matricula.online') }}">Matrícula Online</a></li>
                                 </ul>
                             </li>                              
 
@@ -105,7 +123,7 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                                     <li><a href="{{ route('simulado.online') }}">Simulado Detran</a></li>
-                                    <li><a href="#">Bradesco Detran</a></li>
+                                    <li><a href="http://www.bradesco.com.br/html/classic/produtos-servicos/outros/pagamentos.shtm" target="_blank">Bradesco Detran</a></li>
                                     <li><a href="#">Exame Prático</a></li>
                                 </ul>
                             </li>
@@ -139,11 +157,7 @@
                     <span class="text-uppercase text-font-alt">Siga-nos nas Redes Sociais</span>
                 </div>
                 <div class="col-md-6 text-right text-sm-center responsive-column-xs">
-                    <a href="#" class="social"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
-                    <a href="#" class="social"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="social"><i class="fa fa-skype"></i></a>
-                    <a href="#" class="social"><i class="fa fa-google-plus-square"></i></a>
+                    <a href="https://www.facebook.com/autoescolaparadacerta" class="social" target="_blank"><i class="fa fa-facebook"></i></a>
                     <a href="#" class="social"><i class="fa fa-youtube-play"></i></a>
                     <a href="#" class="social"><i class="fa fa-instagram"></i></a>
                 </div>
@@ -157,21 +171,21 @@
                 <div class="row">
                     <div class="col-md-3 footer-col">
                         <h6 class="bottom-line-alt">Quem somos</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium blanditiis, odit consequuntur autem voluptatibus vero at placeat reiciendis.</p>
-                        <a href="quemsomos.php" class="read-more-link">Saiba mais</a>
+                        <p>O Centro de Formação de Condutores PARADA CERTA, atuando hoje na cidade de Niterói, tem como missão a qualidade de ensino e a formação de condutores conscientes.</p>
+                        <a href="{{ route('quemsomos') }}" class="read-more-link">Saiba mais</a>
                     </div><!-- .col-md-3 -->
                     <div class="col-md-3 footer-col">
                         <h6 class="bottom-line-alt">Links ùteis</h6>
                         <ul class="list-links">
-                            <li><a href="#">Simulado Detran</a></li>
+                            <li><a href="{{ route('simulado.online') }}">Simulado Detran</a></li>
                             <li><a href="#">Exame prático</a></li>
                             <li><a href="#">Bradesco Detran</a></li>
-                            <li><a href="#">Matrícula Online</a></li>
+                            <li><a href="{{ route('matricula.online') }}">Matrícula Online</a></li>
                         </ul>
                     </div><!-- .col-md-3 -->
                     <div class="col-md-3 footer-col">
                         <h6 class="bottom-line-alt">Contatos</h6>
-                        <p><i class="fa fa-map-marker"></i> End.: Av. Feliciano Sodré, 101<br>
+                        <p><i class="fa fa-map-marker"></i> End.: Rua Visconde de Itaboraí, 396<br>
                         Centro - Niterói - RJ</p>
                         <p><i class="fa fa-phone"></i> (21) 3021-7611 / (21) 3021-7712</p>
                     </div><!-- .col-md-3 -->
@@ -196,10 +210,9 @@
                 </div>
                 <div class="site-info-right">
                     <ul class="main-navigation">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Auto Escola</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="simulado.php">Simulado Detran</a></li>
+                        <li><a href="{{ route('home') }}">Home</a></li>
+                        <li><a href="{{ route('quemsomos') }}">Auto Escola</a></li>
+                        <li><a href="{{ route('simulado.online') }}">Simulado Detran</a></li>
                         <li><a href="{{ route('contato') }}">Contato</a></li>
                     </ul>
                 </div>
@@ -217,6 +230,7 @@
     <script type="text/javascript" src="{{ asset('front-assets/js/jquery.scrollTo.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('front-assets/js/jquery.stellar.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('front-assets/js/isotope.pkgd.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('front-assets/js/morphext.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('front-assets/js/custom.js') }}"></script>
 
 

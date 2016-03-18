@@ -25,7 +25,10 @@ class MatriculaRequest extends Request
     {
         return [
             'nome'  => 'required',
-            'cpf'   => 'required'
+            'cpf'   => 'required',
+            'curso_id' => 'required'
         ];
     }
+
+
 }

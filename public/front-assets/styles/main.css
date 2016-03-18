@@ -191,6 +191,43 @@ textarea {
 .login-page {
   padding: 150px 30px;
 }
+.sidenav h4 {
+  color: #bfbfbf;
+}
+
+.sidenav li{
+  font-size: 14px; ;
+  background-color: #e8e8e8;
+
+}
+.sidenav li a:hover {
+  background-color: #000;
+  font-weight: bold;
+  border-radius: 0;
+}
+.sidenav .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-color: #000;
+    color: #F7C51E;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.word-rotate {
+  padding: 15px 30px;
+  margin: 0 10px;
+  background-color: #F7C51E;
+}
+
+.yellow-text {
+    color: #f4be0c;
+}
+
+.sub-title {
+    font-size: 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+}
 
 
 /*== 2 IDs ==*/

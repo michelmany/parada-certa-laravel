@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="box">
                     <h5>Envie-nos uma mensagem</h5>
-                    <form id="form-contact" action="assets/php/send_email.php" method="post" data-email-not-set-msg="Email obrigatório" data-message-not-set-msg="Message is required" data-name-not-set-msg="Name is required" data-ajax-fail-msg="Request could not be sent, try later" data-success-msg="Email successfully sent.">
+                    <form id="form-contact" action="#" method="post" data-email-not-set-msg="Email obrigatório" data-message-not-set-msg="Message is required" data-name-not-set-msg="Name is required" data-ajax-fail-msg="Request could not be sent, try later" data-success-msg="Email successfully sent.">
                         <div class="row">
                             <div class="col-sm-5">
                                 <input type="text" name="name" placeholder="Nome">
@@ -44,7 +44,7 @@
                         <div class="col-md-6 col-sm-6 responsive-column-xs">
                             <h5>Endereço</h5>
                             <p>
-                                Av. Feliciano Sodré, 101 - Centro - Niterói - RJ
+                                Rua Visconde de Itaboraí, 396 - Centro - Niterói - RJ
                             </p>
                         </div>
                         <div class="col-md-6 col-sm-6 responsive-column-xs">

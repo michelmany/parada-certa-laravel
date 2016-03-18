@@ -452,3 +452,49 @@ if ( !("placeholder" in document.createElement("input")) ) {
         });
     });
 }
+
+
+// set li menu active on clic
+jQuery(function ($) {
+	$("ul#menu-side-cat-a a")
+		.click(function(e) {
+			var link = $(this);
+
+			var item = link.parent("li");
+
+			if (item.hasClass("active")) {
+				item.removeClass("active").children("a").removeClass("active");
+			} else {
+				item.addClass("active").children("a").addClass("active");
+			}
+
+			if (item.children("ul").length > 0) {
+				var href = link.attr("href");
+				link.attr("href", "#");
+				setTimeout(function () {
+					link.attr("href", href);
+				}, 300);
+				e.preventDefault();
+			}
+		})
+		.each(function() {
+			var link = $(this);
+			if (link.get(0).href === location.href) {
+				link.addClass("active").parents("li").addClass("active");
+				return false;
+			}
+		});
+});
+
+// word rotator (MORPHEXT)
+$(".js-rotating").Morphext({
+	// The [in] animation type. Refer to Animate.css for a list of available animations.
+	animation: "bounceIn",
+	// An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+	separator: "|",
+	// The delay between the changing of each phrase in milliseconds.
+	speed: 2000,
+	complete: function () {
+		// Called after the entrance animation is executed.
+	}
+});

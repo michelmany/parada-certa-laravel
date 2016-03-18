@@ -1,0 +1,956 @@
+/* =========================================================        Reset Body    ========================================================= */
+body.csbody {
+    line-height: 24px;
+    font-size: 13px;
+    color: #696969;
+}
+.container{
+    max-width: 1170px}
+    #primary.no_breadcrumb_page > .container {
+        margin-top: ;
+        margin-bottom: ;
+    }
+    .csbody:not(.home) #primary > .container {
+        padding: ;
+    }
+    .csbody:not(.home) #primary > .container,
+    .csbody:not(.home) #primary > .no-container{
+         background-color:  ;
+    }
+.csbody a {
+    color: #000000;
+}
+.csbody a:hover,
+.csbody a:focus,
+.csbody a:active,
+.csbody a.active {
+    color: #f7c51e;
+}
+.color-primary,
+.primary-color,
+.primary-color *,
+.custom-heading-wrap.title-primary-color h2,
+.custom-heading-wrap.title-primary-color h3,
+.custom-heading-wrap.title-primary-color h4,
+.custom-heading-wrap.title-primary-color h5,
+.custom-heading-wrap.title-primary-color h6{
+    color: #000000;
+}
+.color-secondary,
+.custom-heading-wrap.title-secondary-color h2,
+.custom-heading-wrap.title-secondary-color h3,
+.custom-heading-wrap.title-secondary-color h4,
+.custom-heading-wrap.title-secondary-color h5,
+.custom-heading-wrap.title-secondary-color h6{
+    color: #f7c51e;
+}
+
+.bg-primary-color,
+ul.cs_list_circle li:before, 
+ul.cs_list_circleNumber li:before{
+    background-color:#000000;
+}
+
+
+/* =========================================================        Start Typo    ========================================================= */
+
+/* ========================================    Start Header   ================================ */
+
+/* Header Top Color Option */
+    #header-top {
+        background: #f5f5f5 ;
+        color:#000000 ;
+    }
+    #header-top h1,#header-top h2,#header-top h3,
+    #header-top h4,#header-top h5,#header-top h6{
+        color: #000000;
+    }
+    #header-top a{
+        color: #000000;
+    }
+    #header-top a:hover,
+    #header-top a:focus,
+    #header-top a:active{
+        color: #f7c51e;
+    }
+
+/* Header Top 2 Color Option */
+    #header-top2 {
+        background: #ffffff ;
+        color:#ffffff ;
+    }
+
+    #header-top2 h1,#header-top2 h2,#header-top2 h3,
+    #header-top2 h4,#header-top2 h5,#header-top2 h6{
+        color: #ffffff;
+    }
+    
+    #header-top2 a{
+        color: #ffffff;
+    }
+    #header-top2 a:hover,
+    #header-top2 a:focus,
+    #header-top2 a:active{
+        color: #f7c51e;
+    }
+
+/* Default Main Navigation Header Widget */
+    #cshero-header .cshero-header-content-widget{
+        position: relative;
+        color: ;
+    }
+    #cshero-header .cshero-header-content-widget a{
+        padding:0px 10px 0px 10px;
+        color: #000000;
+        display:inline-block;
+    }
+    #cshero-header .cshero-header-content-widget a:hover,
+    #cshero-header .cshero-header-content-widget a:focus,
+    #cshero-header .cshero-header-content-widget a:active{
+        color: #f7c51e;
+    }
+/* End Default Main Navigation Header Widget */
+
+#cshero-header{
+    padding:;
+    margin:;
+    }
+.logo > a {
+    padding: 0;
+    margin:0; 
+}
+    /*** Special style for each header ***/
+    /* Header V2 */
+    .header-v2 #cshero-header .logo > a{
+        min-height: 0;
+        line-height: normal;
+                    padding-top:30px;
+                margin:0;
+    }
+    
+    
+/* Sticky Header */
+    #header-sticky {
+        background-color: rgba(255, 255, 255, 1.0);
+                border-bottom:1px solid  rgba(238, 238, 238, 1.0)            }
+    #sticky-nav-wrap .menu-item-cart-search .header-cart-search .widget_searchform_content,
+    #sticky-nav-wrap .menu-item-cart-search .header-cart-search .shopping_cart_dropdown {
+        top: 60px;
+    }
+    .sticky-header .cshero-logo > a{
+        line-height: 60px;
+        min-height: 60px;
+        padding:;
+        margin:;
+    }
+
+    /* Sticky Header Main Navigation Widget */
+        #header-sticky .cshero-header-content-widget{
+            height:60px;
+            position: relative;
+        }
+        #header-sticky .cshero-header-content-widget a{
+            padding:0px 10px 0px 10px;
+        }
+        #header-sticky .cshero-header-content-widget{
+            height:60px;
+            position: relative;
+            color: ;
+        }
+        #header-sticky .cshero-header-content-widget a{
+            padding:0px 10px 0px 10px;
+            color: #000000;
+        }
+        #header-sticky .cshero-header-content-widget a:hover,
+        #header-sticky .cshero-header-content-widget a:focus,
+        #header-sticky .cshero-header-content-widget a:active{
+            color: #f7c51e;
+        }
+    /* End Sticky Header Navigation Widget */
+
+
+            @media (max-width: 992px) and (min-width: 768px) {
+            #header-sticky{
+                display: none;
+            }
+        }
+                @media (max-width: 767px) {
+            #header-sticky{
+                display: none;
+            }
+        }
+    /*** Start Main Menu ***/
+    /* General Option */
+    .cshero-menu-dropdown > ul > li > a {
+                    text-transform: uppercase;
+            }
+
+            .cshero-menu-dropdown > ul > li > a:after {
+        color: #696969;
+        content: "|";
+        position: absolute;
+        right: -3px;
+        top: -1px;
+    }
+           
+    /* Sub level */
+    .cshero-menu-dropdown ul li ul {
+        min-width: 210px;
+    }
+    /* End General Option */
+
+    /* Default Menu */
+    #cshero-header .main-menu-content,
+    #cshero-header .full-menu-background   {
+        background-color: transparent ;
+    }
+
+    /* First Level */
+    #cshero-header ul.cshero-dropdown > li > a,
+    #cshero-header .menu-pages .menu > ul > li > a{
+        font-size:13px;
+        color:#696969;
+        padding-left: 15px ;
+        padding-top: 0px ;
+        padding-right: 15px ;
+        padding-bottom: 0px ;
+        margin:0px;
+    }
+    #cshero-header ul.cshero-dropdown > li > a:hover,
+    #cshero-header .menu-pages .menu > ul > li > a:hover,
+    #cshero-header ul.cshero-dropdown > li > a:focus,
+    #cshero-header ul.cshero-dropdown > li:hover > a,
+    #cshero-header ul.cshero-dropdown > li:focus > a,
+    #cshero-header ul.cshero-dropdown > li:active > a{
+        color:#000000;
+        
+        background-color:rgba(234, 234, 234, 1.00);
+    }
+    #cshero-header ul.cshero-dropdown > li.current-menu-item > a,
+    #cshero-header ul.cshero-dropdown > li.current-menu-ancestor > a,
+    #cshero-header ul.cshero-dropdown > li > a.active,
+    #cshero-header ul.cshero-dropdown > li > a:active{
+        color:#000000;
+        background-color:rgba(234, 234, 234, 1.00);
+    }
+    /* Sub Level */
+    #cshero-header #menu ul.cshero-dropdown .sub-menu,
+    #cshero-header #menu ul.cshero-dropdown > li > .sub-menu ul {
+        background-color:#eaeaea;
+    }
+
+
+    #cshero-header #menu ul.cshero-dropdown ul.sub-menu > .no_group,
+    #cshero-header #menu ul.cshero-dropdown ul.sub-menu .standard.sub-menu> .no_group {
+        border-bottom:1px solid #d8d8d8;
+    }
+    #cshero-header #menu ul.cshero-dropdown ul.sub-menu .group > a {
+        border-top:1px solid #d8d8d8;
+        border-bottom:1px solid #d8d8d8;
+    }
+    #cshero-header #menu ul.sub-menu .group > a{
+        color:#696969;
+    }
+    #cshero-header #menu ul.cshero-dropdown ul > li > a{
+        font-size:13px;
+        color:#696969;
+    }
+    /* Hover state */
+    #cshero-header #menu ul.main-menu > li > ul.sub-menu > .no_group:hover,
+    #cshero-header #menu ul.main-menu > li > ul.sub-menu .standard.sub-menu> .no_group:hover,
+    #cshero-header #menu ul.main-menu > li > ul > li.current-menu-item > a,
+    #cshero-header #menu ul.main-menu > li > ul > li.current-menu-ancestor > a {
+        border-bottom:none;
+    }
+    
+
+    .header-wrapper .cshero-menu-dropdown ul ul > li.current-menu-item > a,
+    .header-wrapper .cshero-menu-dropdown ul ul > li.current-menu-ancestor > a,
+    .header-wrapper .cshero-menu-dropdown ul ul > li > a:active,
+    .header-wrapper .cshero-menu-dropdown ul ul > li > a.active,
+    .header-wrapper .cshero-menu-dropdown ul ul > li > a:hover,
+    .header-wrapper .cshero-menu-dropdown ul ul > li > a:focus,
+    .header-wrapper .cshero-menu-dropdown ul ul > li:not(.group):hover > a,
+    .header-wrapper .cshero-menu-dropdown ul ul > li:not(.group):focus > a,
+    .header-wrapper .cshero-menu-dropdown ul ul > li:not(.group):active > a,
+    .header-wrapper .cshero-menu-dropdown ul ul > li:not(.group):visited > a,
+    .header-wrapper ul.cshero-dropdown ul ul > li.current-menu-item > a,
+    .header-wrapper ul.cshero-dropdown ul ul > li.current-menu-ancestor > a,
+    .header-wrapper ul.cshero-dropdown ul ul > li > a:active,
+    .header-wrapper ul.cshero-dropdown ul ul > li > a.active,
+    .header-wrapper ul.cshero-dropdown ul ul > li > a:hover,
+    .header-wrapper ul.cshero-dropdown ul ul > li > a:focus,
+    .header-wrapper ul.cshero-dropdown ul ul > li:not(.group):hover > a,
+    .header-wrapper ul.cshero-dropdown ul ul > li:not(.group):focus > a,
+    .header-wrapper ul.cshero-dropdown ul ul > li:not(.group):active > a,
+    .header-wrapper ul.cshero-dropdown ul ul > li:not(.group):visited > a {
+        color:#000000;
+        background-color:#ffffff;
+        border-bottom: 2px solid #f7c51e;
+    }
+    /* Active state */
+
+            #header-sticky .cshero-menu-dropdown ul > li.menu-item-has-children:hover .multicolumn,
+        #header-sticky .cshero-menu-dropdown > ul > li.menu-item-has-children:hover .standar-dropdown,
+        #header-sticky .cshero-menu-dropdown > ul > li.menu-item-has-children:hover > a + .sub-menu {
+            top: 65px !important;
+        }
+    
+            #cshero-header .cshero-menu-dropdown ul li:hover:not(.group) > ul.sub-menu {
+            top: 95px !important;
+        }
+        #cshero-header .cshero-menu-dropdown ul li:hover:not(.group) > ul.sub-menu .sub-menu {
+            top: 0 !important;
+        }
+        
+    /* End Default Menu*/
+    /* Sticky Menu */
+    .sticky-menu{
+        background-color: transparent ;
+    }
+    /* First Level */
+    #header-sticky ul.cshero-dropdown > li > a,
+    #header-sticky .menu-pages .menu > ul > li > a {
+        font-size:12px; 
+        color:#696969;
+        line-height: 60px;
+        padding-left: 15px ;
+        padding-top: 0px ;
+        padding-right: 15px ;
+        padding-bottom: 0px ;
+        margin:0px;
+    }
+    #header-sticky ul.cshero-dropdown > li > a:hover,
+    #header-sticky ul.cshero-dropdown > li > a:focus,
+    #header-sticky ul.cshero-dropdown > li:hover > a,
+    #header-sticky .menu-pages .menu > ul > li:hover > a,
+    #header-sticky ul.cshero-dropdown > li:focus > a,
+    #header-sticky ul.cshero-dropdown > li:active > a{
+        color:#000000;
+        background-color:rgba(234, 234, 234, 1.00);
+    }
+    #header-sticky ul.cshero-dropdown > li.current-menu-item > a,
+    #header-sticky ul.cshero-dropdown > li.current-menu-ancestor > a,
+    #header-sticky ul.cshero-dropdown > li > a.active,
+    #header-sticky ul.cshero-dropdown > li > a:active{
+        color:#000000;
+        background-color:rgba(234, 234, 234, 1.00);
+    }
+    /* Sub Level */
+
+    #header-sticky ul.cshero-dropdown .sub-menu{
+        background-color:#eaeaea;
+    }
+    #header-sticky ul.cshero-dropdown ul.standar-dropdown.sub-menu > .no_group,
+    #header-sticky ul.cshero-dropdown ul.standar-dropdown.sub-menu .standard.sub-menu > .no_group {
+        border-top:1px solid #d8d8d8;
+    }
+    #header-sticky ul.cshero-dropdown ul.sub-menu .group > a {
+        border-top:1px solid #d8d8d8;
+        border-bottom:1px solid #d8d8d8;
+    }
+    #header-sticky ul.sub-menu .group > a {
+        color:#696969;
+    }
+    #header-sticky ul.cshero-dropdown ul > li > a{
+        font-size:13px;
+        color:#696969;
+    }
+    /* Hover state */
+    #header-sticky ul.cshero-dropdown ul > li > a:hover,
+    #header-sticky ul.cshero-dropdown ul > li > a:focus,
+    #header-sticky ul.cshero-dropdown ul > li:not(.group):hover > a,
+    #header-sticky ul.cshero-dropdown ul > li:not(.group):focus > a,
+    #header-sticky ul.cshero-dropdown ul > li:not(.group):active > a,
+    #header-sticky ul.cshero-dropdown ul > li:not(.group):visited > a{
+        color:#000000;
+        background-color:#ffffff;
+    }
+    /* Active state */
+    #header-sticky ul.cshero-dropdown ul > li.current-menu-item > a,
+    #header-sticky ul.cshero-dropdown ul > li.current-menu-ancestor > a
+    #header-sticky ul.cshero-dropdown ul > li > a:active,
+    #header-sticky ul.cshero-dropdown ul > li > a.active{
+        color:#000000;
+        background-color:#ffffff;
+    }
+    /* End Sticky Menu*/
+
+    /* Main header  sidebar icon */
+    #cshero-header  ul.cs-hidden-sidebar > li > a{
+        line-height: 90px;
+    }
+    #cshero-header  ul.cs-item-cart-search > li .header a{
+        line-height: 90px;
+        padding:0px 10px 0px 10px;
+    }
+    
+    /* Sticky sidebar icon */
+    #header-sticky  ul.cs-hidden-sidebar > li > a{
+        line-height: 60px;
+    }
+    #header-sticky  ul.cs-item-cart-search > li .header a{
+        line-height: 60px;
+        padding:0px 10px 0px 10px;
+    }
+        
+/* Custom Menu Header */
+.cs_custom_header_menu{}
+    /* Fix Social Widget */
+    .cs_custom_header_menu ul.cs-social li a,
+    .cs_custom_header_menu li.cshero-hidden-sidebar a{
+        padding:0px 10px 0px 10px !important;
+        color: #000000 !important;
+        display:inline-block !important;
+    }
+    .cs_custom_header_menu ul.cs-social li a:hover,
+    .cs_custom_header_menu ul.cs-social li a:focus,
+    .cs_custom_header_menu ul.cs-social li a:active,
+    .cs_custom_header_menu li.cshero-hidden-sidebar a:hover,
+    .cs_custom_header_menu li.cshero-hidden-sidebar a:focus,
+    .cs_custom_header_menu li.cshero-hidden-sidebar a:active{
+        color: #f7c51e !important;
+    }
+/* End Custom Menu Header */
+#menu.menu-up .main-menu > li > ul{
+    bottom: 90px; /* for menu fixed bottm */
+}
+
+/* Mobile & Tablet Menu */
+    #cshero-main-menu-mobile { 
+        background-color:#333333;
+    }
+    /* First Level */
+    #cshero-main-menu-mobile ul.cshero-dropdown > li > a { 
+        color:#ffffff;
+    }
+    #cshero-main-menu-mobile ul.cshero-dropdown > li > a:hover { 
+        color:#5ad7c5;
+    }
+    /* Level 2+ */
+    #cshero-main-menu-mobile ul.sub-menu > li > a{
+        border-bottom:1px solid transparent;
+    }
+    #cshero-main-menu-mobile ul.sub-menu > li > a{
+        color:#999999;
+    }
+    #cshero-main-menu-mobile ul.sub-menu > li > a:hover{
+        color:#5ad7c5;
+    }
+
+/* =========================================================        Start Primary    =========================================================*/
+/* Form Style */
+
+    form {
+        background-color: transparent;
+    }
+
+    form input,
+    form button,
+    form select,
+    form textarea {
+        background-color: #ffffff;
+        color:#adadad;
+        border:solid 1px #ebebeb;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        -ms-box-shadow: none;
+        -o-box-shadow: none;
+        -webkit-border-radius: 0;
+        -ms-border-radius: 0;
+        -moz-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;
+    }
+
+
+    form input:hover,
+    form button:hover,
+    form select:hover,
+    form textarea:hover,
+    form input:active,
+    form button:active,
+    form select:active,
+    form textarea:active,
+    form input:focus,
+    form button:focus,
+    form select:focus,
+    form textarea:focus {
+        background-color: transparent;
+        border-color: #f7c51e;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        -ms-box-shadow: none;
+        -o-box-shadow: none;
+    }
+
+    input:-moz-placeholder, textarea:-moz-placeholder,
+    input:-webkit-placeholder, textarea:-webkit-placeholder,
+    input:-o-placeholder, textarea:-o-placeholder,
+    input:-ms-placeholder, textarea:-ms-placeholder  {
+        color:#343434;
+    }
+/* Style for FORM in Parallax section
+NOTE: you need add extra class name called parallax-form to row or column or shortcode setting
+*/
+.content-area .parallax-form input[type="text"]:hover,
+.content-area .parallax-form input[type="password"]:hover,
+.content-area .parallax-form input[type="datetime"]:hover,
+.content-area .parallax-form input[type="datetime-local"]:hover,
+.content-area .parallax-form input[type="date"]:hover,
+.content-area .parallax-form input[type="month"]:hover,
+.content-area .parallax-form input[type="time"]:hover,
+.content-area .parallax-form input[type="week"]:hover,
+.content-area .parallax-form input[type="number"]:hover,
+.content-area .parallax-form input[type="email"]:hover,
+.content-area .parallax-form input[type="url"]:hover,
+.content-area .parallax-form input[type="search"]:hover,
+.content-area .parallax-form input[type="tel"]:hover,
+.content-area .parallax-form input[type="color"]:hover,
+.content-area .parallax-form input[type="submit"]:hover,
+.content-area .parallax-form textarea:hover,
+.content-area .parallax-form label:hover,
+.content-area .parallax-form select:hover{
+    border-color: #000000;
+}
+
+/* =========================================================        Start Sidebar    =========================================================*/
+.widget_calendar td:hover {
+    background: #000000;
+}
+/* =========================================================        Start Title and Module    =========================================================*/
+.title-preset2 h3 {
+    color: #f7c51e;
+}
+.title-preset1 h3, .title-style-colorprimary-retro h3, .title-style-colorprimary-retro2 h3,
+.title-style-colorprimary-retro2 h3 + p,.tagline  {
+    color: #000000 ;
+}
+.title-restaurant .wpb_wrapper > h1,
+.title-restaurant .wpb_wrapper > h3 {
+    background: #000000;
+}
+.title-restaurant2 .wpb_wrapper > h3,
+.title-restaurant2 .wpb_wrapper > h1 {
+    color: #000000;
+}
+
+/* =========================================================        Start Button Style    =========================================================*/
+
+.csbody .btn, .csbody .btn-default, .csbody button, .csbody .button, .csbody input[type="button"] {
+    font-size: 13px ;
+            text-transform: uppercase;
+        letter-spacing: 1px;
+    font-weight:400;
+    font-style:normal;
+    background-color: rgba(235, 235, 235, 1.00);
+    color: #969696;
+    border-style: solid;
+    border-color: #ebebeb;
+    border-width: 2px 2px 2px 2px;
+
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+
+                   
+    padding-top: 11px;
+    padding-right: 28px;
+    padding-bottom: 11px;
+    padding-left: 28px;
+
+    margin: 0;
+}
+.csbody .btn:hover,
+.csbody .btn:focus,
+.csbody .button:hover,
+.csbody .button:focus,
+.csbody  button:hover,
+.csbody  button:focus,
+a.comment-reply-link:hover,
+a.comment-reply-link:focus {
+    background-color: rgba(247, 197, 30, 1);
+    color: #ffffff;
+    border-color: #f7c51e;
+}
+
+/* btn Default Hover */
+.csbody .btn-default:hover {
+    border-color: #f7c51e;
+    color: #ffffff;
+    background: rgba(247, 197, 30, 1);
+}
+/* btn Default Alt */
+.csbody .btn-default-alt,
+.contact-page input.wpcf7-submit.contact-submit {
+    background:transparent;
+    border-color: #969696;
+    color: #969696;
+}
+.csbody .btn-default-alt:hover,
+.csbody .btn-default-alt:focus {
+    border-color: rgba(247, 197, 30, 1);
+    background: rgba(247, 197, 30, 1);
+}
+
+/* btn White */
+.csbody .btn-white{
+    background-color:#fff;
+    border-color:#fff;
+    color: #ebebeb;
+}
+
+/* btn Border White */
+.csbody .btn-border-white{
+    border-color:#fff;
+    color:#fff;
+    background:transparent;
+}
+
+/* btn Border Primary */
+.csbody .btn-border-primary{
+    border-color:rgba(247, 197, 30, 1.00);
+    color: #ffffff;
+    background:transparent;
+}
+.csbody .btn-border-primary:hover{
+    border-color:rgba(247, 197, 30, 1.00);
+    color: #ffffff;
+    background-color:rgba(247, 197, 30, 1.00);
+}
+/* btn primary */
+.csbody  input[type="submit"],
+.csbody  input#submit:hover,
+.csbody .btn-primary{
+    
+    font-size: 13px;
+            text-transform: uppercase;
+    
+    background-color: rgba(247, 197, 30, 1.00);
+    color: #ffffff;
+
+    border-style: solid;
+    border-color: #f7c51e;
+    border-width: 2px 2px 2px 2px;
+                    
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    margin: 0;
+}
+
+.csbody .btn-primary-alt {
+    border-color: #f7c51e;
+    color: #f7c51e;
+}
+
+.csbody .btn-primary-alt:hover,
+.csbody .btn-primary-alt:focus {
+    background: #f7c51e;
+    color: #000;
+}
+
+/*** Size Button ***/
+.csbody .btn-large,
+.csbody .btn-lg{
+    font-size: 13pxpx; 
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.csbody .btn-medium,
+.csbody .btn-md {
+    font-size: 13pxpx; 
+    padding-right: 42px;
+    padding-left: 42px;
+}
+.csbody .btn-small,
+.csbody .btn-sm {
+    font-size: 9.1px; 
+    padding-top: 7.7px;
+    padding-right: 19.6px;
+    padding-left: 19.6px;
+    padding-bottom: 7.7px;
+}
+.csbody .btn-mini,
+.csbody .btn-xs {
+    font-size: 6.5px; 
+    padding-top: 5.5px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 5.5px;
+}
+/* =========================================================
+    End Button Style
+=========================================================*/
+/* =========================================================
+    Start Short Code
+=========================================================*/
+/*** High light ***/
+.cs-highlight-style-1 {
+     background: #000000;
+}
+
+
+/*** ATL QUOTE ***/
+.cs-quote-style-2-alt,
+.cs-quote-style-1-alt {
+    border-color: #f7c51e;
+}
+
+.cs-quote-style-1-alt:before,
+.cs-quote-style-3-alt:after {
+    color: #f7c51e;
+}
+
+
+
+/*---- Start Accordion ----*/
+.wpb_accordion.style1 .wpb_accordion_section .wpb_accordion_header a {
+    background: #000000;
+}
+.wpb_accordion.style1 .wpb_accordion_section .ui-accordion-header-active.wpb_accordion_header a {
+    background: #f7c51e;
+}
+/*---- End Accordion ----*/
+
+/* Start Highlight */
+.cs-highlight-style-1 {
+    background-color: #f7c51e;
+}
+.cs-highlight-style-2 {
+    background-color: #000000;
+}
+.cs-highlight-style-3 {
+    background-color: #000000;
+}
+
+/* =========================================================
+    End Short Code
+=========================================================*/
+/*Start All Style Widget WP*/
+/* Default widget */
+
+/* =========================================================
+    Start Bottom
+=========================================================*/
+#cs-bottom-wrap {
+    color:  ;
+    padding:20px 0;
+    margin:;
+}
+#cs-bottom-wrap h3,#cs-bottom-wrap h1,#cs-bottom-wrap h2,#cs-bottom-wrap h4
+,#cs-bottom-wrap h5,#cs-bottom-wrap h6 {
+    color:  ;
+}
+#cs-bottom-wrap a {
+    color:  ;
+}
+#cs-bottom-wrap a:hover {
+    color:  ;
+}
+/* =========================================================
+    Start Footer
+=========================================================*/
+#footer-top {
+    color: #ffffff;
+            border-style:;
+        border-color:;
+        border-width:;
+    }
+
+#footer-top form input:hover,
+#footer-top form input:focus,
+#footer-top form select:hover,
+#footer-top form select:focus,
+#footer-top form textarea:hover,
+#footer-top form textarea:focus,
+#footer-top form button:hover,
+#footer-top form button:focus{
+    color: ;
+}
+#footer-top h3.wg-title {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+
+#footer-top h3.wg-title {
+            text-transform: uppercase;
+    }
+#footer-top a {
+    color: #ffffff;
+}
+#footer-top a:hover {
+    color: #f7c51e;
+}
+#footer-top .cs-social a i {
+    color:;
+}
+#footer-top .cs-social a:hover i {
+    color: ;
+}
+#footer-top .cs-social.style-4 li a:hover i {
+    border-color: ;
+}
+#footer-bottom {
+    background-color: #1e1e1e ;
+    color: #969696;
+    margin: ;
+}
+    #footer-bottom {
+        padding: 20px 0;    
+    }
+#footer-bottom .container{
+    }
+#footer-bottom h3.wg-title {
+    color: #ffffff;
+}
+#footer-bottom a {
+    color: #969696;
+}
+#footer-bottom a:hover {
+    color: #f7c51e;
+}
+#footer-top {
+    padding: 40px 0px 70px;
+    margin: 0px;
+}
+
+#footer-top .widget_cs_social_widget.style2 ul li a{
+    background-color:  #ffffff;
+    color:;
+}
+#footer-top .widget_cs_social_widget.style2 ul li a:hover{
+    background-color:  #f7c51e;
+    color:;
+}
+.footer-bottom-1{
+    text-align: left;
+}
+.footer-bottom-2{
+    text-align: right;
+}
+/* End Shortcode heading style */
+
+/* Custom Home */
+#footer-top h3.wg-title:before {
+    border-color: #f7c51e;
+}
+
+#footer-top h3.wg-title:after {
+    border-color: #2d2d2d;
+}
+
+/*======================================*/
+/*        Custom                        */
+/*======================================*/
+.home-video-slider .fancybox-layout3 .cshero-read-more a:hover,
+.home-video-slider #header-top a:hover,
+.home-video-slider .header-contact-info li a:hover,
+.cs-product-wrap .entry-summary .product_meta .posted_in a:hover,
+.csbody #comments .comment-list .comment-meta a:hover,
+.portfolio-style1 .cshero-portfolio-category a:hover,
+.cs-blog .cs-blog-summary .readmore a:hover,
+.cs-blog .cs-blog-meta .cs-blog-info li a:hover,
+.postcarousel-style1 .cshero-post-carousel-item .cshero-carosel-meta li a:hover {
+    color: #f7c51e;
+}
+
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.csbody.woocommerce span.onsale,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
+.wc-forward:hover, 
+.cs-carousel-item-wrap .woo-view-detail a.view-detail:hover, 
+.cs-carousel-item-wrap a.add-to-cart-button:hover,
+.cs-related .cshero-nav ul li a:hover,
+.csbody .tagcloud a:hover,
+.post-details-footer .navigation a:hover,
+.csbody .post-details-footer .cs-blog-share a:hover,
+.cs-portfolio-navigation .post-navigation a:hover,
+.team-style1 .cshero-nav.vertical-center ul li a:hover {
+    background: #f7c51e;
+}
+
+.wc-forward:hover, 
+.cs-carousel-item-wrap .woo-view-detail a.view-detail:hover, 
+.cs-carousel-item-wrap a.add-to-cart-button:hover,
+.select-wrap:hover,
+.csbody .primary-sidebar select:hover,
+.csbody .tagcloud a:hover,
+.post-details-footer .navigation a:hover,
+.csbody .post-details-footer .cs-blog-share a:hover,
+.cs-portfolio-navigation .post-navigation a:hover,
+.team-style1 .cshero-nav.vertical-center ul li a:hover {
+    border-color: #f7c51e;
+}
+
+.csbody .cs-booking-form input[type="text"], 
+.csbody .cs-booking-form input[type="email"], 
+.csbody select {
+    background-color: #ffffff;
+    color:#adadad;
+    border:solid 1px #ebebeb;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+
+#commentform input[type="text"]:hover,
+#commentform input[type="text"]:active,
+#commentform textarea:hover,
+#commentform textarea:active,
+.csbody .cs-booking-form input[type="text"]:hover, 
+.csbody .cs-booking-form input[type="text"]:active, 
+.csbody .cs-booking-form input[type="email"]:hover, 
+.csbody .cs-booking-form input[type="email"]:active, 
+.csbody select:hover,
+.csbody select:active {
+        background-color: transparent;
+        color:#adadad;
+        border-color: #f7c51e;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        -ms-box-shadow: none;
+        -o-box-shadow: none;
+    }
+
+.woocommerce nav.woocommerce-pagination ul li .page-numbers.current,
+.woocommerce nav.woocommerce-pagination ul li:hover .page-numbers,
+.csbody  input[type="submit"]:hover,
+.csbody  input[type="submit"]:focus,
+.csbody  input#submit:hover,
+.csbody  input#submit:focus,
+.csbody .btn-primary:hover,
+.csbody .btn-primary:active,
+.csbody .btn-primary:focus {
+    background-color: #f7c51e;
+    color: #fff;
+    border-color: #f7c51e;
+}
+
+.woocommerce .woocommerce-message::before,
+.cshero-portfolio .cshero-portfolio-item .cshero-portfolio-element > .cshero-portfolio-title > a:hover {
+    color: #f7c51e !important;
+}
+.cshero-post-carousel.postcarousel-style1 .link-wrap a:hover {
+    color: #f7c51e;
+}
+.csbody .cshero-post-carousel.postcarousel-style1 .bx-pager-inner li .bx-pager-link.active,
+.csbody .cshero-post-carousel.postcarousel-style1 .bx-pager-inner li .bx-pager-link:hover {
+    background-color: #f7c51e;
+    border-color: #f7c51e;
+}

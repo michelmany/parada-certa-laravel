@@ -2,6 +2,7 @@
 
 namespace ParadaCerta\Http\Controllers\Painel;
 
+use Illuminate\Support\Facades\Auth;
 use ParadaCerta\Models\Matricula;
 use Illuminate\Http\Request;
 use ParadaCerta\Http\Requests;
@@ -35,7 +36,12 @@ class MatriculasController extends Controller
         $store = $this->matricula->create($request->all());
         $store->cursos()->sync($this->request);
 
-        return redirect()->route('matriculas');
+        if(Auth::user()):
+            return redirect()->route('matriculas');
+        else:
+            \Session::flash('flash_message','Sua solicitação de Matrícula foi efetuada com sucesso. Favor aguardar nosso contato!');
+            return redirect()->route('matricula.online');
+        endif;
     }
 
     public function view($id)
