@@ -9,13 +9,13 @@
     <!--[if lt IE 9]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <![endif]-->
-    <meta name="description" content="">
+    <meta name="description" content="Auto Escola Parada Certa">
     <meta name="keywords" content="">
     <meta name="author" content="Nitdesign.com.br">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="front-assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="">
     <link rel="shortcut icon" href="{{ asset('front-assets/ico/favicon.ico') }}">
 
     <!--[if lt IE 9]>
@@ -28,7 +28,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900italic,300,400italic%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
     
     <link rel="stylesheet" href="{{ asset('front-assets/bootstrap/css/bootstrap.min.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('front-assets/owl-carousel2/front-assets/owl.carousel.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('front-assets/owl-carousel2/assets/owl.carousel.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('front-assets/lightbox/css/lightbox.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('front-assets/masterslider/style/masterslider.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('front-assets/styles/morphext.css') }}" type="text/css">
@@ -130,15 +130,6 @@
 
                             <li>
                                 <a href="{{ route('contato') }}">contato</a>
-                            </li>
-                            <li>
-                                <a class="no-scroll" id="search-trigger"><i class="fa fa-search"></i></a>
-                                <div id="search-box">
-                                    <form class="form-search">
-                                        <input type="text" placeholder="Pesquisar por...">
-                                        <input type="submit" value="">
-                                    </form>
-                                </div>
                             </li>
                         </ul>
                     </div><!-- .collapse -->
