@@ -46,18 +46,18 @@
 
                             <tr>
                                 <td>Primeira Habilita&ccedil;&atilde;o <strong>&quot;B&quot; (Carro)</strong></td>
-                                <td><strong>Pacote Promocional:</strong> Matrícula, Material Didático, Marcação dos Exames, Curso Teórico (45 aulas), Curso Prático (25 aulas), Veículo para Exame.</td>
-                                <td><strong>R$: 1300,00</strong><br> (em até 12x sem juros)</td>
-                                <td><strong>R$: 1200,00</strong><span><br>(1 + 5x de R$ 200,00)</span></td>
-                                <td><strong>R$: 999,00</strong><span><br>(à vista)</span></td>
+                                <td><strong>Pacote Promocional:</strong> Matrícula, Material Didático, Marcação dos Exames, Curso Teórico (45 aulas), Simulador de direção (5 aulas), Curso Prático (20 aulas), Veículo para Exame.</td>
+                                <td><strong>R$: 1400,00</strong><br> (em até 12x sem juros)</td>
+                                <td><strong>R$: 1290,00</strong><span><br>(1 + 5x de R$ 215,00)</span></td>
+                                <td><strong>R$: 1200,00</strong><span><br>(à vista)</span></td>
                             </tr>
 
                             <tr>
                                 <td>Primeira Habilita&ccedil;&atilde;o <strong> A/B (Moto e Carro)</strong></td>
-                                <td><strong>Pacote Promocional:</strong> Matrícula, Material Didático, Marcação dos Exames, Curso Teórico (45 aulas), Curso Prático (20 aulas para Categoria "A" e 25 aulas para Categoria "B"), Veículos para Exame.</td>
-                                <td><strong>R$: 1600,00</strong><br> (em até 12x sem juros)</td>
-                                <td><strong>R$: 1500,00</strong><span><br>(1 + 5x de R$ 250,00)</span></td>
-                                <td><strong>R$: 1400,00</strong><span><br>(à vista)</span></td>
+                                <td><strong>Pacote Promocional:</strong> Matrícula, Material Didático, Marcação dos Exames, Curso Teórico (45 aulas), Simulador de direção (5 aulas), Curso Prático (20 aulas para Categoria "A" e 20 aulas para Categoria "B"), Veículos para Exame.</td>
+                                <td><strong>R$: 1750,00</strong><br> (em até 12x sem juros)</td>
+                                <td><strong>R$: 1620,00</strong><span><br>(1 + 5x de R$ 270,00)</span></td>
+                                <td><strong>R$: 1500,00</strong><span><br>(à vista)</span></td>
                             </tr>
 
                             <tr>
@@ -70,10 +70,10 @@
 
                         <tr>
                             <td>Inclus&atilde;o de Categoria <strong>&quot;B&quot;</strong></td>
-                            <td><strong>Pacote Promocional:</strong> Matrícula, Marcação dos Exames, Curso Prático (20 aulas), Veículo para Exame.</td>
+                            <td><strong>Pacote Promocional:</strong> Matrícula, Marcação dos Exames, Simulador de diração (5 aulas), Curso Prático (16 aulas), Veículo para Exame.</td>
                             <td><strong>R$: 900,00</strong><br> (em até 12x sem juros)</td>
-                            <td><strong>R$: 800,00</strong><span><br>(1 + 1x de R$ 400,00)</span></td>
-                            <td><strong>R$: 700,00</strong><span><br>(à vista)</span></td>
+                            <td><strong>R$: 800,00</strong><span><br>(1 de R$ 200,00 + 2x de R$ 300,00)</span></td>
+                            <td><strong>R$: 750,00</strong><span><br>(à vista)</span></td>
                         </tr>
 
                         </tbody>
@@ -82,7 +82,7 @@
 
                 <div class="margin-60"></div>
 
-                <h4>Aproveitamento de categoria</h4>
+                <h4>Aproveitamento de RENACH</h4>
 
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped">
@@ -130,19 +130,19 @@
                         <tr>
                             <td>Taxa de 1&ordf; Habilita&ccedil;&atilde;o</td>
                             <td>(cod.:201-1)</td>
-                            <td><strong>R$ 229,36</strong></td>
+                            <td><strong>R$ 253,94</strong></td>
                             <td><a href="http://www.bradesco.com.br/html/classic/produtos-servicos/outros/pagamentos.shtm" target="_blank">Bradesco - Detran</a></td>
                         </tr>
                         <tr>
                             <td>Taxa de Reexame</td>
                             <td>(cod.:202-0)</td>
-                            <td><strong>R$ 85,73</strong></td>
+                            <td><strong>R$ 94,91</strong></td>
                             <td><a href="http://www.bradesco.com.br/html/classic/produtos-servicos/outros/pagamentos.shtm" target="_blank">Bradesco - Detran</a></td>
                         </tr>
                         <tr>
                             <td>Exame M&eacute;dico/vista</td>
                             <td>(cod.:----)</td>
-                            <td><strong>R$ 59,00</strong></td>
+                            <td><strong>R$ 70,00</strong></td>
                             <td>Pagamento na Cl&iacute;nica</td>
                         </tr>
                         <tr>
@@ -150,29 +150,35 @@
                             <td>(cod.:----)</td>
                             <td><strong>R$ 80,00</strong></td>
                             <td>Pagamento na Cl&iacute;nica</td>
-                        </tr>
+                        </tr>   
+                        <tr>
+                            <td>Exame Toxicológico</td>
+                            <td></td>
+                            <td><strong>R$ 295,00</strong></td>
+                            <td>Pagamento na Clínica</td>
+                        </tr>                                         
                         <tr>
                             <td>Taxa de CNH Definitiva</td>
                             <td>(cod.:204-6)</td>
-                            <td><strong>R$ 114,68</strong></td>
+                            <td><strong>R$ 126,97</strong></td>
                             <td><a href="http://www.bradesco.com.br/html/classic/produtos-servicos/outros/pagamentos.shtm" target="_blank">Bradesco - Detran</a></td>
                         </tr>
                         <tr>
                             <td>Taxa de 2&ordf; Via Habilita&ccedil;&atilde;o</td>
                             <td>(cod.:205-4)</td>
-                            <td><strong>R$ 114,68</strong></td>
+                            <td><strong>R$ 126,97</strong></td>
                             <td><a href="http://www.bradesco.com.br/html/classic/produtos-servicos/outros/pagamentos.shtm" target="_blank">Bradesco - Detran</a></td>
                         </tr>
                         <tr>
                             <td>Taxa de Adi&ccedil;&atilde;o de Categoria</td>
                             <td>(cod.:203-8)</td>
-                            <td><strong>R$ 114,68</strong></td>
+                            <td><strong>R$ 126,97</strong></td>
                             <td><a href="http://www.bradesco.com.br/html/classic/produtos-servicos/outros/pagamentos.shtm" target="_blank">Bradesco - Detran</a></td>
                         </tr>
                         <tr>
                             <td>Taxa de Permiss&atilde;o Internacional (PID)</td>
                             <td>(cod.:204-6)</td>
-                            <td><strong>R$ 114,68</strong></td>
+                            <td><strong>R$ 126,97</strong></td>
                             <td><a href="http://www.bradesco.com.br/html/classic/produtos-servicos/outros/pagamentos.shtm" target="_blank">Bradesco - Detran</a></td>
                         </tr>
                         </tbody>

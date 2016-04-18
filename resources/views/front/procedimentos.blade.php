@@ -40,7 +40,7 @@
 
                             <div>
                                 <h4><span class="alternative-font">2. </span>Cadastro no Sistema.</h4>
-                                <p class="tall">O Candidato deverá comparecer até a Autoescola para apresentar os documentos originais, fazer o cadastro no sistema, retirar o material Didático, reconhecer o contrato e realizar o pagamento da primeira parcela do curso.</p>
+                                <p class="tall">O Candidato deverá comparecer até a Auto Escola PARADA CERTA para apresentar os documentos originais, fazer o cadastro no sistema, retirar o material Didático, reconhecer o contrato e realizar o pagamento da primeira parcela do curso.</p>
                             </div>
 
                     </div>
@@ -48,7 +48,7 @@
 
                             <div>
                                 <h4><span class="alternative-font">3. </span>Pagamento do Curso.</h4>
-                                <p class="tall">O pagamento do seu curso poderá ser parcelado em até 6x sem juros nos cartões de crédito ou no dinheiro, através de crediário próprio "Sem consulta ao SPC e Serasa".</p>
+                                <p class="tall">O pagamento do seu curso poderá ser parcelado em até 12x sem juros nos cartões de crédito, 6x sem juros no carnê através de crediário próprio ou à vista no dinheiro, "Sem consulta ao SPC e Serasa".</p>
                             </div>
 
                             <div>
@@ -61,12 +61,12 @@
 
                             <div>
                                 <h4><span class="alternative-font">5. </span>Exame Médico e Psicotécnico.</h4>
-                                <p class="tall">Com o "RENACH" em mãos, o proximo procedimento será marcar os exames de sanidade física e mental e o psicotécnico, é cobrado uma taxa para esse serviço realizado em clinicas autorizadas pelo Detran.</p>
+                                <p class="tall">Com o "RENACH" em mãos, o próximo procedimento será marcar os exames de sanidade física e mental e o psicotécnico, é cobrado uma taxa para esse serviço realizado em clinicas autorizadas pelo Detran.</p>
                             </div>
 
                             <div>
                                 <h4><span class="alternative-font">6. </span>Pronto!</h4>
-                                <p class="tall">Tudo certo, após o processo de matrícula o Canditado, está liberado e em condições de iniciar suas aulas e respectivos exames. Entenda melhor o Passo a Passo, <a href="passoapasso.html">Clique Aqui!</a></p>
+                                <p class="tall">Tudo certo, após o processo de matrícula o Candidato, está liberado e em condições de iniciar suas aulas e respectivos exames. Entenda melhor o Passo a Passo, <a href="passoapasso.html">Clique Aqui!</a></p>
                             </div>
 
                     </div>

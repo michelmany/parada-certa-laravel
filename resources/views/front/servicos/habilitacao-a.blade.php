@@ -61,7 +61,7 @@
 
                                 <div class="feature-box-info">
                                     <h4><span class="label label-warning">1</span> Matrícula</h4>
-                                    <p class="tall">Realizar a matricula na Auto Escola Plazza apresentando toda documentação necessária e pagamento da primeira parcela;</p>
+                                    <p class="tall">Realizar a matricula na Auto Escola PARADA CERTA apresentando toda documentação necessária e pagamento da primeira parcela;</p>
                                 </div>
                             </div>
                             <div class="feature-box">
@@ -79,7 +79,7 @@
                             <div class="feature-box">
                                 <div class="feature-box-info">
                                     <h4><span class="label label-warning">4</span> Aula Teórica</h4>
-                                    <p class="tall">Retornar a Auto Escola Plazza com exame para agendar o curso teórico (45 aulas);</p>
+                                    <p class="tall">Retornar a Auto Escola PARADA CERTA com exame para agendar o curso teórico (45 aulas);</p>
                                 </div>
                             </div>
                         </div>

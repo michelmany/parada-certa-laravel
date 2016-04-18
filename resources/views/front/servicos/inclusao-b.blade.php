@@ -59,7 +59,7 @@
 
                                 <div class="feature-box-info">
                                     <h4><span class="label label-warning">1</span> Matrícula</h4>
-                                    <p>Realizar a matricula na Auto Escola Plazza apresentando toda documentação necessária e pagamento da primeira parcela;</p>
+                                    <p>Realizar a matricula na Auto Escola PARADA CERTA apresentando toda documentação necessária e pagamento da primeira parcela;</p>
                                 </div>
                             </div>
                             <div class="feature-box">
@@ -76,12 +76,19 @@
                             </div>
                             <div class="feature-box">
                                 <div class="feature-box-info">
-                                    <h4><span class="label label-warning">4</span> Aula Prática</h4>
-                                    <p>Retornar a Auto Escola Plazza com o exame para agendar as aulas práticas de direção veicular (20 aulas);</p>
+                                    <h4><span class="label label-warning">4</span> Aulas no Simulador</h4>
+                                    <p>Após ter sido aprovado nos exames  médico/psicotécnico, realizar as aulas no simulador de direção veicular (4 aulas);</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
+  
+                            <div class="feature-box">
+                                <div class="feature-box-info">
+                                    <h4><span class="label label-warning">4</span> Aula Prática</h4>
+                                    <p>Após as aulas no simulador, agendar as aulas práticas de direção veicular (16 aulas);</p>
+                                </div>
+                            </div>                                                  
                             <div class="feature-box">
                                 <div class="feature-box-info">
                                     <h4><span class="label label-warning">5</span> Exame de Direção</h4>
@@ -91,7 +98,7 @@
                             <div class="feature-box">
                                 <div class="feature-box-info">
                                     <h4><span class="label label-warning">6</span> Retirada da Habilitação</h4>
-                                    <p>Com a aprovação do exame prático, retirar a habilitação no Detran num prazo de 48 horas.</p>
+                                    <p>Com a aprovação do exame prático, retirar a habilitação no Detran num prazo de 4 dias úteis.</p>
                                 </div>
                             </div>
                         </div>

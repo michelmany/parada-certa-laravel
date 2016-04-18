@@ -34,7 +34,7 @@
                             "O bom condutor é aquele que pratica".
                         </p>
 
-                        <p>O treinamento para habilitados é destinado ao condutor que está há muito tempo sem práticar, ou ainda aos condutores que dirigem mas possuem dificuldade em alguma das técnicas requeridas no ato de dirigir. O objetivo é desenvolver no novas habilidades ao condutor, concientizando-o que seu medos advém da falta de prática e a técnica poderá ser adquirida através de um treinamento adequado as suas necessidades. O treinamento é ministrado por instrutores credenciados junto ao Departamento Estadual de Trànsito e que possuem ampla experiência na área de treinamento veicular.</p>
+                        <p>O treinamento para habilitados é destinado ao condutor que está há muito tempo sem praticar, ou ainda aos condutores que dirigem mas possuem dificuldade em alguma das técnicas requeridas no ato de dirigir. O objetivo é desenvolver novas habilidades ao condutor, conscientizando-o que seu medos advém da falta de prática e a técnica poderá ser adquirida através de um treinamento adequado as suas necessidades. O treinamento é ministrado por instrutores credenciados junto ao Departamento Estadual de Trânsito e que possuem ampla experiência na área de treinamento veicular.</p>
 
                         <p><strong>O candidato deve atender aos seguintes pré-requisitos:</strong></p>
                         <ul>
@@ -63,13 +63,13 @@
                                 <div class="feature-box">
                                     <div class="feature-box-info">
                                         <h4><span class="label label-warning">1</span> Matrícula</h4>
-                                        <p>Realizar a matricula na Auto Escola Plazza apresentando toda documentação necessária e pagamento do pacote solicitado;</p>
+                                        <p>Realizar a matricula na Auto Escola PARADA CERTA apresentando toda documentação necessária e pagamento do pacote solicitado;</p>
                                     </div>
                                 </div>
                                 <div class="feature-box">
                                     <div class="feature-box-info">
                                         <h4><span class="label label-warning">2</span> Marcação da Aula</h4>
-                                        <p>Realizar o agendamento de aulas junto a secretaria da Auto Escola Plazza;</p>
+                                        <p>Realizar o agendamento de aulas junto a secretaria da Auto Escola PARADA CERTA;</p>
                                     </div>
                                 </div>
                                 <div class="feature-box">
@@ -101,7 +101,7 @@
                             </div>
                             <div id="collapseOne" class="accordion-body collapse in">
                                 <div class="panel-body">
-                                    <p>Motos novos;<br>
+                                    <p>Motocicletas novas;<br>
                                         Leves;<br>
                                         Controle de velocidade.<br>
                                         Carros novos;<br>

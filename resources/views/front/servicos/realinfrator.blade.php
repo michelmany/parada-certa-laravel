@@ -34,7 +34,7 @@
                             "O bom condutor é aquele que pratica".
                         </p>
 
-                        <p>O Real Infrator é aquele que chegou ao limite de pontuação em sua CNH, cometeu 20 pontos ou mais e com isso o mesmo terá que entregar sua CNH ao orgão (DETRAN). Se tiver vencida o mesmo renovará pagando um DUDA de renovação e fará o trâmite da renovãção.</p>
+                        <p>O Real Infrator é aquele que chegou ao limite de pontuação em sua CNH, cometeu 20 pontos ou mais e com isso o mesmo terá que entregar sua CNH ao órgão (DETRAN). Se tiver vencida o mesmo renovará pagando um DUDA de renovação e fará o trâmite da renovação.</p>
 
                         <p><strong>O candidato deve atender aos seguintes pré-requisitos:</strong></p>
                         <ul>
@@ -63,7 +63,7 @@
                                 <div class="feature-box">
                                     <div class="feature-box-info">
                                         <h4><span class="label label-warning">1</span> Matrícula</h4>
-                                        <p>Realizar a matricula na Auto Escola Plazza apresentando toda documentação necessária e pagamento do pacote solicitado;</p>
+                                        <p>Realizar a matricula na Auto Escola PARADA CERTA apresentando toda documentação necessária e pagamento do pacote solicitado;</p>
                                     </div>
                                 </div>
                                 <div class="feature-box">
@@ -81,7 +81,7 @@
                                 <div class="feature-box">
                                     <div class="feature-box-info">
                                         <h4><span class="label label-warning">4</span> Retirada da Habilitação</h4>
-                                        <p>Após a aprovação o infrato deverá ir ao Detran em que entregou sua CNH e entregará o certificado que a AutoEscola irá emitir junto com o Renach de aprovação de prova teórica e pegará a sua CNH.</p>
+                                        <p>Após a aprovação o infrator deverá ir ao Detran em que entregou sua CNH. Entregar o Renach de aprovação de prova teórica e pegará a sua CNH.</p>
                                     </div><strong></strong>
                                 </div>
                             </div>
@@ -96,24 +96,6 @@
                     <h3>Vantagens:</h3><hr>
 
                     <div class="panel-group" id="accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                        <i class="fa fa-dashboard"></i>
-                                        Veículos
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="accordion-body collapse in">
-                                <div class="panel-body">
-                                    <p>Veículos novos;<br/>
-                                        Ar-condicionado;<br/>
-                                        Direção Elétrica/Hidráulica.<br/>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">

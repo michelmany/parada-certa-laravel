@@ -21,7 +21,7 @@
 
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <h2 class="short word-rotator-title">Tirar sua Habilitação na Parada Certa é <span class="js-rotating word-rotate">Fácil. | Tranquilo. | Seguro. | Confortável.</span></h2>
+                        <h2 class="short word-rotator-title">Tirar sua Habilitação na Parada Certa é <span class="js-rotating word-rotate">Fácil. | Tranquilo. | Seguro. | Confortável. | Diferente. | Fácil.</span></h2>
                         <p class="lead">Pensando em você, a Auto Escola Parada Certa explica abaixo todo o passo a passo para você tirar sua 1ª Habilitação. Para fazer sua Matrícula Online agora, <a href="{{ route('matricula.online') }}" class="yellow-text">Clique Aqui!</a></p>
                     </div>
                 </div>
@@ -31,16 +31,16 @@
                 <h2>Passo a Passo</h2>
                 <div>
                     <h4>1º Passo:</h4>
-                    <p> Solicite no CFC Parada Certa a abertura do processo junto ao DETRAN-RJ e matrícula do aluno(a), mediante a emissão do boleto bancário para pagamento da Taxa (DUDA) do DETRAN-RJ  para o processo de 1ª habilitação e efetue o recolhimento das taxas junto ao Banco Bradesco  e devolva na secretaria do CFC.</p>
+                    <p> Solicite na Auto Escola PARADA CERTA a abertura do processo junto ao DETRAN-RJ e matrícula do aluno(a), mediante a emissão do boleto bancário para pagamento da Taxa (DUDA) do DETRAN-RJ  para o processo de 1ª habilitação e efetue o recolhimento das taxas junto ao Banco Bradesco  e devolva na secretaria do CFC.</p>
 
                     <h4>2º Passo:</h4>
-                    <p>Na secretaria do CFC solicite o agendamento da foto e biometria junto ao DETRAN-RJ (Captura de Imagem e Digitais). Com o protocolo em mãos vá ao local indicado (DETRAN) com antecedência mínima de 30 minutos. Não esqueça o seu RG, imprescindível para captura de imagens e digitais, após retorne ao CFC.</p>
+                    <p>Na secretaria da Auto Escola PARADA CERTA solicite o agendamento da foto e biometria junto ao DETRAN-RJ (Captura de Imagem e Digitais). Com o protocolo em mãos vá ao local indicado (DETRAN) com antecedência mínima de 30 minutos. Não esqueça o seu RG, imprescindível para captura de imagens e digitais, após retorne ao CFC.</p>
 
                     <h4>3º Passo:</h4>
-                    <p>Na secretaria do CFC solicite o agendamento do Exame de Aptidão Física e Mental e Avaliação Psicológica. Com o protocolo em mãos vá ao local indicado (CLINICAS CREDENCIADAS PELO DETRAN), chegando com antecedência mínima de 30 minutos. Não esqueça o RG, é imprescindível para realização dos exames. Não esqueça, caso utilize lentes corretivas (lentes ou óculos) serão obrigatória para o exame.</p>
+                    <p>Na secretaria da Auto Escola PARADA CERTA solicite o agendamento do Exame de Aptidão Física e Mental e Avaliação Psicológica. Com o protocolo em mãos vá ao local indicado (CLINICAS CREDENCIADAS PELO DETRAN), chegando com antecedência mínima de 30 minutos. Não esqueça o RG, é imprescindível para realização dos exames. Não esqueça, caso utilize lentes corretivas (lentes ou óculos) serão obrigatória para o exame.</p>
 
                     <h4>4º Passo:</h4>
-                    <p>Na secretaria do CFC solicite o agendamento das aulas teóricas. Para iniciar as aulas é necessário que esteja apto nos exames. São 45 aulas divididas em 20 dias, no período da manhã, tarde ou noite. Este curso abrange as matérias e as respectivas cargas horárias conforme quadro abaixo:</p>
+                    <p>Na secretaria da Auto Escola PARADA CERTA solicite o agendamento das aulas teóricas. Para iniciar as aulas é necessário que esteja apto nos exames. São 45 aulas divididas em 20 dias, no período da manhã, tarde ou noite. Este curso abrange as matérias e as respectivas cargas horárias conforme quadro abaixo:</p>
 
                     <table border="0" cellspacing="0" cellpadding="0">
                         <tbody>
@@ -77,20 +77,24 @@
                     <p>Após concluir as aulas teóricas, o aluno(a) deverá realizar o teste simulado, a fim de avaliar seus conhecimentos para realização do exame teórico no DETRAN-RJ.</p>
 
                     <h4>6º Passo:</h4>
-                    <p>Mediante o resultado apto no simulado, na Secretaria do CFC, será agendado o seu Exame Teórico (Exame de Legislação) junto ao DETRAN. Com o protocolo de agendamento do exame em mãos vá ao local indicado com antecedência mínima de 30 minutos. Não esqueça o RG, imprescindível para realização dos exames.</p>
+                    <p>Mediante o resultado apto no simulado, na Secretaria da Auto Escola PARADA CERTA, será agendado o seu Exame Teórico (Exame de Legislação) junto ao DETRAN. Com o protocolo de agendamento do exame em mãos vá ao local indicado com antecedência mínima de 30 minutos. Não esqueça o RG, imprescindível para realização dos exames.</p>
 
                     <p>O exame é realizado depois da aprovação nos exames médico e psicotécnico e conclusão do curso teórico. O teste é de múltipla escolha, com duração de 30 minutos e acontece no DETRAN/RJ. Há necessidade de acerto de 70% para a aprovação.</p>
 
                     <h4><strong>7º Passo:</strong></h4>
-                    <p>Na Secretaria do CFC solicite o agendamento das aulas práticas de direção veicular, escolhendo os horários e datas mais adequados às suas necessidades, respeitando os horários de funcionamento do CFC. Nas aulas práticas, o aluno(a) fará treinamento.</p>
+                    <p>Na Secretaria da autoescola PARADA CERTA solicite o agendamento das aulas no simulador de direção veicular, escolhendo os horários e datas mais adequados às suas necessidades, respeitando os horários de funcionamento da autoescola PARADA CERTA. As aulas no simulador consiste em uma carga horária mínima de 5 (cinco) aulas e máxima de 8 (oito) aulas.</p>
 
-                    <p>O curso prático de carro consiste em uma carga horária de 20 (vinte) aulas práticas de 50 minutos, sendo obrigatórias 4(quatro) aulas no período noturno.</p>
 
-                    <h4>8º Passo:</h4>
-                    <p>Seu instrutor durante todo o aprendizado prático emite relatório de desenvolvimento e faltas utilizando-se do mesmo critério de avaliação do DETRAN, a fim de corrigir suas dificuldades a cada aula. Ao final da carga horária ira avaliar os resultados alcançados e emitir a liberação para o Exame Prático, seguindo os critérios de avaliação do DETRAN, depois de cumprido com a pontuação exigida para aprovação junto ao DETRAN.</p>
+                    <h4><strong>8º Passo:</strong></h4>
+                    <p>Após as aulas no simulador, solicite na Secretaria da autoescola PARADA CERTA o agendamento das aulas práticas de direção veicular, escolhendo os horários e datas mais adequados às suas necessidades, respeitando os horários de funcionamento da Auto Escola PARADA CERTA. Nas aulas práticas, o aluno(a) fará treinamento em via pública.</p>
+
+                    <p>O curso prático de carro consiste em uma carga horária de 20 (vinte) aulas práticas de 50 minutos.</p>
 
                     <h4>9º Passo:</h4>
-                    <p>Parabéns! Aguarde a chegada de sua CNH em cinco dias ao posto do DETRAN-RJ qe foi feito o cadastro.</p>
+                    <p>Seu instrutor durante todo o aprendizado prático emite relatório de desenvolvimento e faltas utilizando-se do mesmo critério de avaliação do DETRAN, a fim de corrigir suas dificuldades a cada aula. Ao final da carga horária ira avaliar os resultados alcançados e emitir a liberação para o Exame Prático, seguindo os critérios de avaliação do DETRAN, depois de cumprido com a pontuação exigida para aprovação junto ao DETRAN.</p>
+
+                    <h4>10º Passo:</h4>
+                    <p>Parabéns! Você cliente PARADA CERTA contou com os serviços de uma Auto Escola “Que tem o Prazer em Ensinar”. Aguarde a chegada de sua CNH em quatro dias ao posto do DETRAN-RJ que foi feito o cadastro.</p>
             </div>
         </div>
         <hr />

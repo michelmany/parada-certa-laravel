@@ -46,7 +46,7 @@
         <div class="container clearfix">
             <div class="site-top-left">
                 <span class="site-top-part">
-                    <i class="fa fa-clock-o"></i> Aberto de Seg. à Sábado: 08:00-17:00
+                    <i class="fa fa-clock-o"></i> Seg. à Sexta: 08:00-19:40 | Sáb. 07:00-12:00
                 </span>
             </div>
             <div class="site-top-right">

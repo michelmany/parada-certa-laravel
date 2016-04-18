@@ -62,13 +62,13 @@
                                 <div class="feature-box">
                                     <div class="feature-box-info">
                                         <h4><span class="label label-warning">1</span> Matrícula</h4>
-                                        <p>Realizar a matricula na Auto Escola Plazza apresentando toda documentação necessária e pagamento do pacote solicitado. Mais, se você já é nosso aluno, basta solicitar seu pacote extra;</p>
+                                        <p>Realizar a matricula na Auto Escola PARADA CERTA apresentando toda documentação necessária e pagamento do pacote solicitado. Mais, se você já é nosso aluno, basta solicitar seu pacote extra;</p>
                                     </div>
                                 </div>
                                 <div class="feature-box">
                                     <div class="feature-box-info">
                                         <h4><span class="label label-warning">2</span> Marcação da Aula</h4>
-                                        <p>Realizar o agendamento de aulas junto a secretaria da Auto Escola Plazza;</p>
+                                        <p>Realizar o agendamento de aulas junto a secretaria da Auto Escola PARADA CERTA;</p>
                                     </div>
                                 </div>
                                 <div class="feature-box">
