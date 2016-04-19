@@ -11,8 +11,9 @@ class FrontController extends Controller
 {
     public function index()
     {
-        $teste = 'Página Principal';
-        return view('front.index', ['title'=>$teste]);
+
+        $banners = \ParadaCerta\Models\Banner::orderBy('order')->get();
+        return view('front.index')->with(compact('banners'));
     }
 
     public function contato()

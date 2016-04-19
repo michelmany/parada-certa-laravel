@@ -4,15 +4,15 @@
 
    <section class="no-padding">
         <div class="master-slider ms-skin-default has-thumbnails" id="main-slider">
-            <div class="ms-slide bg-pattern-clean" data-delay="7">
-                <img src="{{ asset('front-assets/images/slider/slide1.jpg') }}" data-src="{{ asset('front-assets/images/slider/slide1.jpg') }}" alt="slider image">   
-            </div><!-- .ms-slide -->
-            <div class="ms-slide bg-pattern-clean" data-delay="7">
-                <img src="{{ asset('front-assets/images/slider/slide1.jpg') }}" data-src="{{ asset('front-assets/images/slider/slide1.jpg') }}" alt="slider image">   
-            </div><!-- .ms-slide -->
-            <div class="ms-slide bg-pattern-clean" data-delay="7">
-                <img src="{{ asset('front-assets/images/slider/slide1.jpg') }}" data-src="{{ asset('front-assets/images/slider/slide1.jpg') }}" alt="slider image">   
-            </div><!-- .ms-slide -->
+
+            @foreach($banners as $banner)
+
+                <div class="ms-slide bg-pattern-clean" data-delay="7">
+                    <img src="{{ url('img/sliders/' . $banner->image_url . '?w=1905&h=438&fit=crop') }}" data-src="{{ url('img/sliders/' . $banner->image_url . '?w=1905&h=438&fit=crop') }}" alt="slider image">   
+                </div>
+        
+            @endforeach
+        
         </div>
     </section>
 

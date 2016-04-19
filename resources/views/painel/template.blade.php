@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/lib/css/jquery.dataTables.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/lib/css/dataTables.bootstrap.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/lib/css/select2.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/lib/css/jquery-ui.min.css') }}">
     <!-- CSS App -->
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/css/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/css/themes/flat-blue.css') }}">
@@ -131,9 +132,9 @@
                                 <div id="dropdown-element" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ul class="nav navbar-nav">
-                                            <li><a href="">Listar</a>
+                                            <li><a href="{{ route('sliders') }}">Listar</a>
                                             </li>
-                                            <li><a href="">Adicionar Banner</a>
+                                            <li><a href="{{ route('sliders.create') }}">Adicionar Banner</a>
                                             </li>
                                          </ul>
                                     </div>
@@ -177,6 +178,7 @@
             <div>
                 <!-- Javascript Libs -->
                 <script type="text/javascript" src="{{ asset('admin-assets/lib/js/jquery.min.js') }}"></script>
+                <script type="text/javascript" src="{{ asset('admin-assets/lib/js/jquery-ui.min.js') }}"></script>
                 <script type="text/javascript" src="{{ asset('admin-assets/lib/js/bootstrap.min.js') }}"></script>
                 <script type="text/javascript" src="{{ asset('admin-assets/lib/js/Chart.min.js') }}"></script>
                 <script type="text/javascript" src="{{ asset('admin-assets/lib/js/bootstrap-switch.min.js') }}"></script>

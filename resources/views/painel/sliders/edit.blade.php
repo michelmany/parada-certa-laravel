@@ -5,7 +5,7 @@
     <div class="side-body">
 
         <div class="page-title">
-            <span class="title">Banner da Página Principal</span>
+            <span class="title">Editando Banner ID#{{$banner->id}}</span>
         </div>
 
         <div class="row">
@@ -24,18 +24,11 @@
                             @endforeach
                         @endif
 
-                        {!! Form::open(['method'=>'post', 'route'=>'sliders.upload', 'files' => true]) !!}
+                        {!! Form::model($banner, ['route'=>['sliders.update', $banner->id]]) !!}
 
-                            <div class="sub-title">Envie arquivo de tamanho 1905x438px</div>
+                            <div class="sub-title">Envie de arquivo</div>
 
                             <div class="row">
-
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        {!! Form::label('file', 'Imagem:') !!}
-                                        {!! Form::file('file', null, ['class' => 'form-control']) !!}
-                                    </div>
-                                </div>   
 
                                 <div class="col-md-4">
                                     <div class="form-group">
@@ -53,7 +46,7 @@
 
                             </div>
                        
-                            <button type="submit" class="btn btn-primary">Enviar Banner</button>
+                            <button type="submit" class="btn btn-primary">Atualizar</button>
 
                         {!! Form::close() !!}
                     </div>

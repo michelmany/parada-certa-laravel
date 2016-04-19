@@ -86,11 +86,18 @@ Route::group(['middleware' => 'web'], function () {
 
         Route::get('/', 'Painel\PainelController@dashboard')->name('dashboard');
         Route::get('dashboard', 'Painel\PainelController@dashboard')->name('dashboard');
+
         //Sliders
         Route::group(['prefix'=>'sliders'], function() {
             Route::get('/', 'Painel\SlidersController@index')->name('sliders');
             Route::get('create', 'Painel\SlidersController@create')->name('sliders.create');
+            Route::post('upload', 'Painel\SlidersController@upload')->name('sliders.upload');
+            Route::get('edit/{id}', 'Painel\SlidersController@edit')->name('sliders.edit');
+            Route::post('update/{id}', 'Painel\SlidersController@update')->name('sliders.update');
+            Route::post('order', 'Painel\SlidersController@order')->name('sliders.order');
+            Route::get('destroy/{id}', 'Painel\SlidersController@destroy')->name('sliders.destroy');
         });
+
         //Matriculas
         Route::group(['prefix'=>'matriculas'], function() {
             Route::get('/', 'Painel\MatriculasController@index')->name('matriculas');
@@ -101,6 +108,7 @@ Route::group(['middleware' => 'web'], function () {
             Route::put('update/{id}', 'Painel\MatriculasController@update')->name('matriculas.update');
             Route::get('destroy/{id}', 'Painel\MatriculasController@destroy')->name('matriculas.destroy');
         });
+
         //Cursos
         Route::group(['prefix'=>'cursos'], function() {
             Route::get('cursos', 'Painel\CursosController@index')->name('cursos');
@@ -111,3 +119,8 @@ Route::group(['middleware' => 'web'], function () {
     });
 
 });
+
+
+Route::get('img/{path}', function(League\Glide\Server $server, Illuminate\Http\Request $request) {
+    $server->outputImage($request);
+})->name('img')->where('path', '.+');

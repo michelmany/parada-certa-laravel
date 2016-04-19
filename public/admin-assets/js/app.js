@@ -34,3 +34,47 @@ $(function() {
     return $(".side-menu .nav .dropdown .collapse").collapse('hide');
   });
 });
+
+
+
+// Reordena os ítens do SLIDER
+$(function() {
+
+  var $sortable = $('#sortable');
+
+    $sortable.sortable({
+      placeholder: "portlet-placeholder",
+
+        update: function(event, ui) {
+            var list_sortable = $(this).sortable('toArray').toString();
+            // alert(list_sortable);
+
+            // change order in the database using Ajax
+            $.ajax({
+                url: '/painel/sliders/order',
+                type: 'POST',
+                data: {list_order:list_sortable, _token: $sortable.data('token')},
+                success: function(data) {
+                   //console.log(data);
+
+                  // var opts = {
+                  // "closeButton": true,
+                  // "debug": false,
+                  // "positionClass": "toast-top-right",
+                  // "onclick": null,
+                  // "showDuration": "300",
+                  // "hideDuration": "1000",
+                  // "timeOut": "5000",
+                  // "extendedTimeOut": "1000",
+                  // "showEasing": "swing",
+                  // "hideEasing": "linear",
+                  // "showMethod": "fadeIn",
+                  // "hideMethod": "fadeOut"
+                  // };
+                  // toastr.success("A ordenação foi atualizada com sucesso!", "Olá!", opts);                   
+
+                }
+            });
+        }
+    }); 
+});
