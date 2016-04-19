@@ -11,7 +11,8 @@
         "overtrue/laravel-lang": "dev-master",
         "fzaninotto/faker": "~1.4",
         "league/glide": "0.3.5",
-        "doctrine/dbal": "v2.5.4"
+        "doctrine/dbal": "v2.5.4",
+        "ext-gd": "*"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
