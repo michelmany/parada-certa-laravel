@@ -10,7 +10,8 @@
         "laravelcollective/html": "^5.2",
         "overtrue/laravel-lang": "dev-master",
         "fzaninotto/faker": "~1.4",
-        "league/glide": "0.3.5"
+        "league/glide": "0.3.5",
+        "doctrine/dbal": "v2.5.4"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
