@@ -12,7 +12,8 @@
         "fzaninotto/faker": "~1.4",
         "league/glide": "0.3.5",
         "doctrine/dbal": "v2.5.4",
-        "ext-gd": "*"
+        "ext-gd": "*",
+        "ext-exif":"*"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
