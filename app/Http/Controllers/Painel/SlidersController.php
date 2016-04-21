@@ -41,7 +41,7 @@ class SlidersController extends Controller
         * Storage related
         */
 
-        $storagePath = storage_path().'/app/images/sliders';
+        $storagePath = public_path().'/front-assets/images/slider';
 
         # Aqui estou setando o nome do arquivo com data e horario. Criptografia forte para não aparecer dois nomes iguais nunca.
         $fileName = md5(date('Y-m-d') . $file->getClientOriginalName() .time()) . strrchr($file->getClientOriginalName(), '.');
@@ -91,7 +91,8 @@ class SlidersController extends Controller
     {
         $banner = $this->banner->find($id); # Busco o registro específico pelo ID.
 
-        $storagePath = storage_path().'/app/images/sliders'; # Seto o caminho dos arquivos
+        $storagePath = public_path().'/front-assets/images/slider'; # Seto o caminho dos arquivos
+        
 
         $banner->delete(); # Deleto o registro selecionado do Banco.
 

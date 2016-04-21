@@ -36,7 +36,7 @@
                             @foreach ($banners as $banner)
                        
                                 <li class="view view-first sliderImg" id="{{ $banner->id }}">
-                                    <img src="{{ url('img/sliders/' . $banner->image_url . '?w=200&h=130&fit=crop') }}"> 
+                                    <img src="{{ url('img/slider/' . $banner->image_url . '?w=200&h=130&fit=crop') }}"> 
                                     <div class="mask">
                                         <p>{{ $banner->title }}</p>
                                         <a class="btn btn-warning" href="{{ route('sliders.edit', $banner->id) }}" title="Editar">
