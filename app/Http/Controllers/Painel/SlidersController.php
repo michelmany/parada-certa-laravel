@@ -96,7 +96,9 @@ class SlidersController extends Controller
 
         $banner->delete(); # Deleto o registro selecionado do Banco.
 
-        unlink($storagePath.'/'.$banner->image_url); # Deleto o arquivo na pasta.
+        if(file_exists($storagePath.'/'.$banner->image_url)):
+            unlink($storagePath.'/'.$banner->image_url); # Deleto o arquivo na pasta.
+        endif;
 
         return redirect()->back()->with('success', 'Olá, o banner foi removido com sucesso!'); # Redireciono para a página anterior.
 

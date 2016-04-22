@@ -8,7 +8,8 @@
             @foreach($banners as $banner)
 
                 <div class="ms-slide bg-pattern-clean" data-delay="7">
-                    <img src="{{ asset('front-assets/images/slider/' . $banner->image_url . '?w=1905&h=438&fit=crop') }}" data-src="{{ asset('front-assets/images/slider/' . $banner->image_url . '?w=1905&h=438&fit=crop') }}" alt="slider image">   
+                    <img src="{{ route('images', 'slider').'/'.$banner->image_url }}?w=1905&h=438&fit=crop" 
+                         data-src="{{ route('images', 'slider').'/'.$banner->image_url }}?w=1905&h=438&fit=crop" alt="slider image">   
                 </div>
         
             @endforeach

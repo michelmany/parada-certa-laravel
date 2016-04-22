@@ -121,6 +121,6 @@ Route::group(['middleware' => 'web'], function () {
 });
 
 
-// Route::get('img/{path}', function(League\Glide\Server $server, Illuminate\Http\Request $request) {
-//     $server->outputImage($request);
-// })->name('img')->where('path', '.+');
+Route::get('images/{path}', function(League\Glide\Server $server, Illuminate\Http\Request $request) {
+    $server->outputImage($request);
+})->name('images')->where('path', '.+');
