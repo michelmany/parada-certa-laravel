@@ -6,8 +6,8 @@
             <div class="big-title-wrapper">
                 <div class="container">
                     <div class="big-title-content">
-                        <h1>Quem somos</h1>
-                        Conheça a Auto Escola Parada Certa
+                        <h1>Matrícula Online</h1>
+                        Faça já sua Matrícula online
                     </div>
                 </div>
             </div>
