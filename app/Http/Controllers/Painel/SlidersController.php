@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use ParadaCerta\Models\Banner;
 use ParadaCerta\Http\Requests;
 use ParadaCerta\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\File;
 
 class SlidersController extends Controller
 {
@@ -14,7 +16,6 @@ class SlidersController extends Controller
     {
         $this->banner = $banner;
     }
-
 
     public function index()
     {
@@ -30,8 +31,7 @@ class SlidersController extends Controller
 
     public function upload(Request $request)
     {
-
-        /**
+        /*
         * Request related
         */
 
@@ -41,11 +41,13 @@ class SlidersController extends Controller
         * Storage related
         */
 
-        $storagePath = public_path().'/front-assets/images/slider';
+        $storagePath = 'images/slider/';
 
         # Aqui estou setando o nome do arquivo com data e horario. Criptografia forte para não aparecer dois nomes iguais nunca.
         $fileName = md5(date('Y-m-d') . $file->getClientOriginalName() .time()) . strrchr($file->getClientOriginalName(), '.');
- 
+
+        Storage::disk()->put($storagePath.$fileName, File::get($file));
+
         /*
         * Database related
         */
@@ -56,8 +58,6 @@ class SlidersController extends Controller
         $fileModel->title = $request->input('title');
 
         $fileModel->save();
-
-        $file->move($storagePath, $fileName);
 
         return redirect()->route('sliders')->with('success', 'Banner cadastrado com sucesso!');
     }
@@ -90,17 +90,15 @@ class SlidersController extends Controller
     public function destroy($id)
     {
         $banner = $this->banner->find($id); # Busco o registro específico pelo ID.
-
-        $storagePath = public_path().'/front-assets/images/slider'; # Seto o caminho dos arquivos
-        
-
+        $storagePath = 'images/slider/'; # Seto o caminho dos arquivos    
         $banner->delete(); # Deleto o registro selecionado do Banco.
 
-        if(file_exists($storagePath.'/'.$banner->image_url)):
-            unlink($storagePath.'/'.$banner->image_url); # Deleto o arquivo na pasta.
+        $exists = Storage::disk()->exists($storagePath.$banner->image_url); #verifico se existe o arquivo na pasta.
+
+        if($exists):
+            Storage::disk()->delete($storagePath.$banner->image_url); # Deleto o arquivo na pasta.
         endif;
 
         return redirect()->back()->with('success', 'Olá, o banner foi removido com sucesso!'); # Redireciono para a página anterior.
-
     }
 }

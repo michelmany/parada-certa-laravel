@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'local',
+    'default' => 'ftp',
 
     /*
     |--------------------------------------------------------------------------
@@ -50,9 +50,10 @@ return [
 
         'ftp' => [
             'driver'   => 'ftp',
-            'host'     => 'ftp.example.com',
-            'username' => 'your-username',
-            'password' => 'your-password',
+            'host'     => '186.202.127.13',
+            'username' => 'paradacerta',
+            'password' => 'nit1049',
+            'root'     => 'public_html',
 
             // Optional FTP Settings...
             // 'port'     => 21,
