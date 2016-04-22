@@ -12,7 +12,7 @@
                                     <div class="card-body">
                                         <i class="icon fa fa-users fa-4x"></i>
                                         <div class="content">
-                                            <div class="title">50</div>
+                                            <div class="title">{{ $qtdMatriculas }}</div>
                                             <div class="sub-title">Matriculas</div>
                                         </div>
                                         <div class="clear-both"></div>
@@ -27,7 +27,7 @@
                                     <div class="card-body">
                                         <i class="icon fa fa-picture-o fa-4x"></i>
                                         <div class="content">
-                                            <div class="title">3</div>
+                                            <div class="title">{{ $qtdBanners }}</div>
                                             <div class="sub-title">Banners Cadastrados</div>
                                         </div>
                                         <div class="clear-both"></div>

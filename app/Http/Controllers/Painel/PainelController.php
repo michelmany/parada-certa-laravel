@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use ParadaCerta\Http\Requests;
 use ParadaCerta\Http\Controllers\Controller;
 use ParadaCerta\Models\Post;
+use ParadaCerta\Models\Banner;
+use ParadaCerta\Models\Matricula;
 
 class PainelController extends Controller
 {
@@ -20,16 +22,12 @@ class PainelController extends Controller
 
     }
 
-    public function index()
-    {
-        $posts = $this->post->all();
-        return view('admin.posts.index', compact('posts'));
-    }
-
     public function dashboard()
     {
-        $page_title = 'Painel';
-        return view('painel.dashboard.index', ['page_title'=>$page_title]);
+        $qtdBanners = Banner::count(); #pega quantidade de banners no banco.
+        $qtdMatriculas = Matricula::count(); #pega quantidade de matrículas no banco.
+
+        return view('painel.dashboard.index')->with(compact('qtdBanners', 'qtdMatriculas'));
     }
     
 
