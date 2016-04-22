@@ -26,6 +26,8 @@
 
                         {!! Form::open(['method'=>'post', 'route'=>'sliders.upload', 'files' => true]) !!}
 
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}" />
+
                             <div class="sub-title">Envie arquivo de tamanho 1905x438px</div>
 
                             <div class="row">

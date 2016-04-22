@@ -13,7 +13,9 @@
         "league/glide": "0.3.5",
         "doctrine/dbal": "v2.5.4",
         "ext-gd": "*",
-        "ext-exif":"*"
+        "ext-exif":"*",
+        "league/flysystem-aws-s3-v3": "~1.0",
+        "ext-curl": "*"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",

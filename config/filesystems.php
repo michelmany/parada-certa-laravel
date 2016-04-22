@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'ftp',
+    'default' => 's3',
 
     /*
     |--------------------------------------------------------------------------
@@ -52,8 +52,9 @@ return [
             'driver'   => 'ftp',
             'host'     => '186.202.127.13',
             'username' => 'paradacerta',
-            'password' => 'nit1049',
+            'password' => env('FTP_STORAGE_PASS'),
             'root'     => 'public_html',
+
 
             // Optional FTP Settings...
             // 'port'     => 21,
@@ -65,10 +66,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key'    => 'your-key',
-            'secret' => 'your-secret',
-            'region' => 'your-region',
-            'bucket' => 'your-bucket',
+            'key'    => env('S3-KEY'),
+            'secret' => env('S3-SECRET'),
+            'region' => 'sa-east-1',
+            'bucket' => 'nit-paradacerta',
         ],
 
         'rackspace' => [
