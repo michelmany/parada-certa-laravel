@@ -13,7 +13,8 @@
 
 // Front Site
 Route::get('/', 'Front\FrontController@index')->name('home');
-Route::get('contato', 'Front\FrontController@contato')->name('contato');
+Route::get('contato', 'Front\ContatoController@create')->name('contato');
+Route::post('contato/send', 'Front\ContatoController@send')->name('contato.send');
 Route::get('simulado', 'Front\FrontController@simulado')->name('simulado.online');
 Route::get('quemsomos', 'Front\FrontController@quemsomos')->name('quemsomos');
 Route::get('veiculos', 'Front\FrontController@veiculos')->name('veiculos');

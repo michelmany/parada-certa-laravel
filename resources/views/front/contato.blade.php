@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="box">
                     <h5>Envie-nos uma mensagem</h5>
-                    <form id="form-contact" action="#" method="post" data-email-not-set-msg="Email obrigatório" data-message-not-set-msg="Message is required" data-name-not-set-msg="Name is required" data-ajax-fail-msg="Request could not be sent, try later" data-success-msg="Email successfully sent.">
+                    <form id="form-contact" action="{{route('contato.send')}}" method="post" data-email-not-set-msg="Email obrigatório" data-message-not-set-msg="Digite uma mensagem!" data-name-not-set-msg="Digite seu nome!" data-ajax-fail-msg="Não foi possível enviar sua mensagem, tente outra vez!" data-success-msg="Email enviado com sucesso!">
                         <div class="row">
                             <div class="col-sm-5">
                                 <input type="text" name="name" placeholder="Nome">

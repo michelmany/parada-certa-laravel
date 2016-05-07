@@ -16,11 +16,6 @@ class FrontController extends Controller
         return view('front.index')->with(compact('banners'));
     }
 
-    public function contato()
-    {
-        return view('front.contato');
-    }
-
     public function simulado()
     {
         return view('front.simulado-online');
